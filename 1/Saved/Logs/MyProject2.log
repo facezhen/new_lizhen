@@ -1743,3 +1743,80 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.02-03.00.37:145][943]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景51C99B2A42CB07671F2E839836347A90.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
 [2020.09.02-03.00.37:179][943]AssetCheck: New page: Asset Save: 遊戲場景
 [2020.09.02-03.00.37:179][943]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.02-03.06.33:311][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.09.02-03.06.34:882][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.02-03.06.34:920][542]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2020.09.02-03.06.34:963][542]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景D91280E847C213A1D87265AE99DE2587.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.02-03.06.34:996][542]AssetCheck: New page: Asset Save: 遊戲場景
+[2020.09.02-03.06.34:996][542]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.02-03.06.35:666][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.02-03.06.35:707][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.09.02-03.06.35:736][618]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景9F24F2634C5FE03A35C9D5AE0C4A6249.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.02-03.06.35:769][618]AssetCheck: New page: Asset Save: 遊戲場景
+[2020.09.02-03.06.35:769][618]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.02-03.06.36:233][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.02-03.06.36:275][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.09.02-03.06.36:304][669]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景14E88240426679435A79F2A230FDF2C7.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.02-03.06.36:335][669]AssetCheck: New page: Asset Save: 遊戲場景
+[2020.09.02-03.06.36:335][669]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.02-03.06.36:715][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.02-03.06.36:759][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.09.02-03.06.36:797][710]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景D3E77E9F4929E768300AEDB989DF5C55.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.02-03.06.36:829][710]AssetCheck: New page: Asset Save: 遊戲場景
+[2020.09.02-03.06.36:829][710]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.02-03.06.37:065][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.02-03.06.37:105][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.09.02-03.06.37:133][735]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景9EE604BE4D12A4DAF8D48792011F75E1.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.02-03.06.37:166][735]AssetCheck: New page: Asset Save: 遊戲場景
+[2020.09.02-03.06.37:166][735]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.02-03.06.37:383][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.02-03.06.37:420][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.09.02-03.06.37:449][757]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景F5272B8C4B22DA9D5F357AB58B264D54.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.02-03.06.37:482][757]AssetCheck: New page: Asset Save: 遊戲場景
+[2020.09.02-03.06.37:482][757]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.02-03.06.37:732][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.02-03.06.37:775][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.09.02-03.06.37:803][783]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景6A8196754A20AD7FE6FCADAB306B8419.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.02-03.06.37:837][783]AssetCheck: New page: Asset Save: 遊戲場景
+[2020.09.02-03.06.37:837][783]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.02-03.06.44:930][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.09.02-03.06.45:078][625]LogSlate: Window 'MyProject2 - Unreal Editor' being destroyed
+[2020.09.02-03.06.45:803][625]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.45:803][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.02-03.06.45:820][625]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.45:820][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.02-03.06.45:976][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.09.02-03.06.45:976][625]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.45:976][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.02-03.06.46:019][625]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.46:019][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.02-03.06.46:161][625]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.46:161][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.02-03.06.46:251][625]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.46:251][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.02-03.06.46:257][625]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.46:257][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.02-03.06.46:341][625]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.46:341][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.02-03.06.46:617][626]Cmd: QUIT_EDITOR
+[2020.09.02-03.06.46:618][626]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.09.02-03.06.46:722][626]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.09.02-03.06.46:731][626]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.09.02-03.06.46:753][626]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.09.02-03.06.47:751][626]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微軟注音).
+[2020.09.02-03.06.47:774][626]LogExit: Preparing to exit.
+[2020.09.02-03.06.49:335][626]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.49:341][626]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.49:346][626]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.49:351][626]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.49:356][626]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.49:361][626]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.49:365][626]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.49:370][626]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.49:375][626]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.49:380][626]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.49:384][626]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.49:781][626]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.09.02-03.06.49:884][626]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.09.02-03.06.49:884][626]LogExit: Editor shut down
+[2020.09.02-03.06.49:884][626]LogExit: Transaction tracking system shut down
