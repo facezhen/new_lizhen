@@ -1058,3 +1058,1150 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.03-06.37.52:636][633]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景A38508FA4F35041605B998B3F5B06254.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
 [2020.09.03-06.37.52:668][633]AssetCheck: New page: Asset Save: 遊戲場景
 [2020.09.03-06.37.52:668][633]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.03-06.39.01:500][751]MapCheck: New page: Map Check
+[2020.09.03-06.39.01:512][751]LightingResults: New page: Lighting Build - 2020年9月3日 下午10:39:01
+[2020.09.03-06.39.01:521][751]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.09.03-06.39.01:522][751]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.09.03-06.39.01:522][751]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.09.03-06.39.01:523][751]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.09.03-06.39.01:523][751]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7836
+[2020.09.03-06.39.06:192][751]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.09.03-06.39.06:192][751]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.09.03-06.39.06:192][751]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.09.03-06.39.06:192][751]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.09.03-06.39.06:192][751]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.09.03-06.39.06:192][751]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.09.03-06.39.06:245][751]LogEditorBuildUtils: Build time 0:04
+[2020.09.03-06.39.06:307][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.09.03-06.39.09:922][ 45]Job is a success!
+[2020.09.03-06.39.10:063][ 46]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2020.09.03-06.39.10:063][ 46]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.09.03-06.39.10:063][ 46]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb (trimmed 0.2Mb due to 0.010000 MinBrickError)
+[2020.09.03-06.39.10:063][ 46]LogVolumetricLightmapImport:      Bricks at depth
+[2020.09.03-06.39.10:063][ 46]LogVolumetricLightmapImport:          0: 14.3% covering 100.0% of volume
+[2020.09.03-06.39.10:063][ 46]LogVolumetricLightmapImport:          1: 57.1% covering 6.3% of volume
+[2020.09.03-06.39.10:063][ 46]LogVolumetricLightmapImport:          2: 28.6% covering 0.0% of volume
+[2020.09.03-06.39.10:063][ 46]LogVolumetricLightmapImport:      Bricks in each level
+[2020.09.03-06.39.10:063][ 46]LogVolumetricLightmapImport:          遊戲場景 			 7 bricks 	 100.0% (Persistent Level)
+[2020.09.03-06.39.10:228][ 46]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.09.03-06.39.10:228][ 46]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.09.03-06.39.10:282][ 46]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X128)
+[2020.09.03-06.39.10:282][ 46]LogStaticLightingSystem: 遊戲場景_BuiltData storing lightmap data for 113 meshes in 2 LightmapResourceClusters (56.5 Meshes per cluster).
+[2020.09.03-06.39.10:325][ 46]Lightmass on M514-053: 3.03 sec total, 157 ms importing, 77 ms setup, 615 ms photons, 2.15 sec processing, 0 ms extra exporting [113/113 mappings]. Threads: 23.6 sec total, 14.8 sec processing.
+[2020.09.03-06.39.10:325][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.09.03-06.39.10:389][ 46]LogStaticLightingSystem: Illumination: 8.79 sec (157 ms encoding lightmaps, 21 ms encoding shadowmaps)
+[2020.09.03-06.39.10:389][ 46]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2020.09.03-06.39.10:389][ 46]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 1 textures
+[2020.09.03-06.39.11:196][ 46]DumpUnbuiltLightIteractions
+[2020.09.03-06.39.11:196][ 46]Lights with unbuilt interactions: 0
+[2020.09.03-06.39.11:196][ 46]
+[2020.09.03-06.39.11:196][ 46]Primitives with unbuilt interactions: 0
+[2020.09.03-06.39.11:237][ 47]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.09.03-06.39.11:237][ 47]MapCheck: New page: 遊戲場景 - 2020年9月3日 下午10:39:11
+[2020.09.03-06.39.11:237][ 47]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.619ms to complete.
+[2020.09.03-06.39.37:050][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.09.03-06.39.37:075][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.03-06.39.37:108][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.09.03-06.39.37:158][113]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景405E950048B922E31FAB3C9D9531B14F.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.03-06.39.37:181][113]LogFileHelpers: Saving map '遊戲場景' took 0.106
+[2020.09.03-06.39.37:182][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景_BuiltData" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景_BuiltData.uasset" SILENT=true
+[2020.09.03-06.39.37:235][113]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景_BuiltDataB33FF55D455DF621573BE7923404BCD9.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景_BuiltData.uasset'
+[2020.09.03-06.41.00:935][113]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.03-06.41.00:935][113]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.03-06.41.00:935][113]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/地圖/遊戲場景_BuiltData.遊戲場景_BuiltData
+[2020.09.03-06.41.01:192][113]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2020.09.03-06.41.01:680][172]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject=D:/new_lizhen/new_lizhen/1/MyProject2.uproject BuildCookRun -nocompile -nocompileeditor -installed -nop4 -project=D:/new_lizhen/new_lizhen/1/MyProject2.uproject -cook -stage -archive -archivedirectory="D:/new_lizhen RPG" -package -ue4exe="C:\Program Files\Epic Games\UE_4.24\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Win64 -clientconfig=Development -utf8output
+[2020.09.03-06.41.03:914][440]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for D:\new_lizhen\new_lizhen\1\MyProject2.uproject
+[2020.09.03-06.41.04:906][559]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2020.09.03-06.41.04:914][560]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project D:\new_lizhen\new_lizhen\1\MyProject2.uproject
+[2020.09.03-06.41.04:940][563]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is C:\Program Files\Epic Games\UE_4.24\Engine\Programs\AutomationTool\Saved\Cook-2020.09.03-14.41.04.txt
+[2020.09.03-06.41.04:940][563]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files\Epic Games\UE_4.24\Engine\Binaries\Win64\UE4Editor-Cmd.exe D:\new_lizhen\new_lizhen\1\MyProject2.uproject -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -unversioned -abslog="C:\Program Files\Epic Games\UE_4.24\Engine\Programs\AutomationTool\Saved\Cook-2020.09.03-14.41.04.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2020.09.03-06.41.05:282][604]UATHelper: Packaging (Windows (64-bit)):   LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+[2020.09.03-06.41.05:282][604]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: MyProject2
+[2020.09.03-06.41.06:173][711]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 16 GB [17048686592 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.03-06.41.06:665][770]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.03-06.41.06:690][773]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.03-06.41.06:706][775]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.03-06.41.06:706][775]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.03-06.41.06:706][775]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.03-06.41.06:715][776]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.03-06.41.06:724][777]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.03-06.41.06:724][777]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.03-06.41.06:732][778]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.03-06.41.06:740][779]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.03-06.41.06:757][781]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.03-06.41.06:757][781]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.03-06.41.06:765][782]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.03-06.41.06:765][782]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.03-06.41.06:774][783]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.03-06.41.06:782][784]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.03-06.41.06:782][784]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.03-06.41.06:794][785]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.03-06.41.06:794][785]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2020.09.03-06.41.06:794][785]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.03-06.41.06:815][788]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.03-06.41.07:209][835]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.03-06.41.07:249][839]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/IM/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.09.03-06.41.07:258][840]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.03-06.41.07:931][920]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.03-06.41.07:931][920]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.03-06.41.17:931][120]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.03-06.41.17:931][120]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2020.09.03-06.41.17:931][120]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2020.09.03-06.42.04:620][722]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets
+[2020.09.03-06.42.04:628][723]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked content cleared for platform WindowsNoEditor
+[2020.09.03-06.42.04:628][723]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+[2020.09.03-06.42.04:686][730]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.062 seconds for platforms WindowsNoEditor  iterative false
+[2020.09.03-06.42.05:636][844]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 0 Packages Remain 1142 Total 1142
+[2020.09.03-06.42.06:806][984]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 50 Packages Remain 1141 Total 1191
+[2020.09.03-06.42.07:412][ 57]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 100 Packages Remain 1145 Total 1245
+[2020.09.03-06.42.07:470][ 64]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Tiling_Master, compiling.
+[2020.09.03-06.42.07:603][ 80]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Tiling_Master, compiling.
+[2020.09.03-06.42.08:232][153]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Tiling_Master, compiling.
+[2020.09.03-06.42.08:947][200]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 150 Packages Remain 1144 Total 1294
+[2020.09.03-06.42.14:840][787]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 200 Packages Remain 1143 Total 1343
+[2020.09.03-06.42.16:040][902]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 250 Packages Remain 1142 Total 1392
+[2020.09.03-06.42.26:217][964]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 292 Packages Remain 1133 Total 1425
+[2020.09.03-06.42.26:217][964]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 292 Packages Remain 1001 Total 1293
+[2020.09.03-06.42.26:266][970]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 296 Packages Remain 1000 Total 1296
+[2020.09.03-06.42.26:449][992]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 305 Packages Remain 999 Total 1304
+[2020.09.03-06.42.26:518][  0]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 310 Packages Remain 998 Total 1308
+[2020.09.03-06.42.27:650][136]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Master, compiling.
+[2020.09.03-06.42.28:385][210]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Candles_Master, compiling.
+[2020.09.03-06.42.51:742][861]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Master, compiling.
+[2020.09.03-06.42.53:445][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Dungeon_Wall_Decorative_A_C (AutoDXT, 4096X4096)
+[2020.09.03-06.42.54:385][155]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Dungeon_Wall_Decorative_A_N (BC5, 4096X4096)
+[2020.09.03-06.42.54:431][157]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 335 Packages Remain 1008 Total 1343
+[2020.09.03-06.43.01:832][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Dungeon_Wall_Decorative_A_A (AutoDXT, 4096X4096)
+[2020.09.03-06.43.01:832][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Cell_Side_A (AutoDXT, 2048X2048)
+[2020.09.03-06.43.01:832][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Cell_Side_N (BC5, 2048X2048)
+[2020.09.03-06.43.01:832][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Mausoleum_Ceiling_N (BC5, 4096X4096)
+[2020.09.03-06.43.01:832][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Mausoleum_Part_B_N (BC5, 2048X2048)
+[2020.09.03-06.43.01:832][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Mausoleum_Part_B_C (AutoDXT, 2048X2048)
+[2020.09.03-06.43.01:832][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Mausoleum_Ceiling_C (AutoDXT, 4096X4096)
+[2020.09.03-06.43.01:832][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Mausoleum_Part_B_A (AutoDXT, 2048X2048)
+[2020.09.03-06.43.01:832][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Mausoleum_Ceiling_A (AutoDXT, 4096X4096)
+[2020.09.03-06.43.01:832][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Mausoleum_Part_A_N (BC5, 2048X2048)
+[2020.09.03-06.43.01:832][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Mausoleum_Part_A_C (AutoDXT, 2048X2048)
+[2020.09.03-06.43.01:832][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Mausoleum_Part_A_A (AutoDXT, 2048X2048)
+[2020.09.03-06.43.01:832][674]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Cell_Side_C (AutoDXT, 2048X2048)
+[2020.09.03-06.43.06:281][ 97]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Tiling_Plaster_N (BC5, 2048X2048)
+[2020.09.03-06.43.10:518][574]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_CandleHolder_Iron_A (AutoDXT, 4096X4096)
+[2020.09.03-06.43.15:510][143]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material MM_MasterMaterial_01, compiling.
+[2020.09.03-06.43.15:564][148]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material MM_MasterMaterial_01, compiling.
+[2020.09.03-06.43.15:596][152]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material MM_MasterMaterial_01, compiling.
+[2020.09.03-06.43.15:648][158]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material MM_MasterMaterial_01, compiling.
+[2020.09.03-06.43.15:703][164]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material MM_MasterMaterial_01, compiling.
+[2020.09.03-06.43.15:796][174]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:797][174]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:797][174]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:797][174]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:798][174]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:798][174]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:807][175]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:807][175]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:807][175]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:807][175]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:807][175]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:807][175]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:817][176]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:817][176]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:817][176]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:817][176]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:818][176]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:818][176]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:818][176]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.15:818][176]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.17:087][300]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2020.09.03-06.43.17:087][300]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2020.09.03-06.43.17:087][300]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2020.09.03-06.43.17:087][300]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2020.09.03-06.43.17:207][312]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2020.09.03-06.43.17:207][312]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2020.09.03-06.43.20:310][642]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2020.09.03-06.43.20:332][643]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 385 Packages Remain 1008 Total 1393
+[2020.09.03-06.43.21:053][699]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_WheelBarrel_01_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.43.21:053][699]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.09.03-06.43.21:053][699]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Roller_Machine_M2_NRM (BC5, 2048X2048)
+[2020.09.03-06.43.21:053][699]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Roller_Machine_M2_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.43.21:053][699]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.09.03-06.43.21:055][699]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_WheelBarrel_01_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.43.21:583][746]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Roller_Machine_M2_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.43.21:583][746]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_WheelBarrel_01_NRM (BC5, 2048X2048)
+[2020.09.03-06.43.21:636][752]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:636][752]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:636][752]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:636][752]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:636][752]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:636][752]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:636][752]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:636][752]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:638][752]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:638][752]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:638][752]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:638][752]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:638][752]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:638][752]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:638][752]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:638][752]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:645][753]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:645][753]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:645][753]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:645][753]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:645][753]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:645][753]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:645][753]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:645][753]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:652][754]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:652][754]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:654][754]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:654][754]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:654][754]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:654][754]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:655][754]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:655][754]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:669][756]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:669][756]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:669][756]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:669][756]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:669][756]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:669][756]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:669][756]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:669][756]PackagingResults: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.43.21:704][759]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material MM_SkyBox, compiling.
+[2020.09.03-06.43.21:904][780]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Roller_Machine_M1_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.43.21:977][787]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material MM_Background_01a, compiling.
+[2020.09.03-06.43.23:111][905]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Tiling_Plaster_A (AutoDXT, 2048X2048)
+[2020.09.03-06.43.23:469][943]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Torch_Flicker_Light_Function, compiling.
+[2020.09.03-06.43.25:305][139]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Roller_Machine_M1_NRM (BC5, 2048X2048)
+[2020.09.03-06.43.25:326][140]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Flicker_Light_Function, compiling.
+[2020.09.03-06.43.25:392][145]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Tiling_Plaster_C (AutoDXT, 2048X2048)
+[2020.09.03-06.43.26:729][277]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Roller_Machine_M1_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.43.27:520][358]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 435 Packages Remain 1007 Total 1442
+[2020.09.03-06.43.35:153][101]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Decorative_Arches_A (AutoDXT, 2048X2048)
+[2020.09.03-06.43.35:153][101]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Crypt_Wall_Decorative_D_C (AutoDXT, 2048X2048)
+[2020.09.03-06.43.35:154][101]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Crypt_Wall_Decorative_D_N (BC5, 2048X2048)
+[2020.09.03-06.43.35:154][101]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Crypt_Wall_Decorative_D_A (AutoDXT, 2048X2048)
+[2020.09.03-06.43.35:154][101]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Decorative_Arches_C (AutoDXT, 2048X2048)
+[2020.09.03-06.43.35:154][101]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Crypt_Wall_Decorative_C_Normal (BC5, 4096X4096)
+[2020.09.03-06.43.35:154][101]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Crypt_Wall_Decorative_C_Compact (AutoDXT, 4096X4096)
+[2020.09.03-06.43.35:154][101]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Crypt_Wall_Decorative_C_Albedo (AutoDXT, 4096X4096)
+[2020.09.03-06.43.35:154][101]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Torture_Chair_Normal (BC5, 4096X4096)
+[2020.09.03-06.43.35:154][101]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Statue_Hooded_Metal_N (BC5, 2048X2048)
+[2020.09.03-06.43.35:534][110]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Ceiling_Arch_Compact (AutoDXT, 4096X4096)
+[2020.09.03-06.43.35:719][127]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_CandleFlame, compiling.
+[2020.09.03-06.43.35:983][138]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Candles_Master, compiling.
+[2020.09.03-06.43.36:023][140]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 485 Packages Remain 1006 Total 1491
+[2020.09.03-06.44.30:325][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Statue_Hooded_Metal_A (AutoDXT, 2048X2048)
+[2020.09.03-06.44.30:325][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Ceiling_Arch_Normal (BC5, 4096X4096)
+[2020.09.03-06.44.30:325][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Ceiling_Arch_Albedo (AutoDXT, 4096X4096)
+[2020.09.03-06.44.30:325][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Crypt_Wall_Decorative_B_Normal (BC5, 4096X4096)
+[2020.09.03-06.44.30:325][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Statue_Hooded_Metal_C (AutoDXT, 2048X2048)
+[2020.09.03-06.44.30:325][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Crypt_Wall_Decorative_B_Compact (AutoDXT, 4096X4096)
+[2020.09.03-06.44.30:325][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Coffin_Normal (BC5, 2048X2048)
+[2020.09.03-06.44.30:325][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Crypt_Wall_Decorative_B_Albedo (AutoDXT, 4096X4096)
+[2020.09.03-06.44.30:325][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Coffin_Compact (AutoDXT, 2048X2048)
+[2020.09.03-06.44.30:325][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Coffin_Albedo (AutoDXT, 2048X2048)
+[2020.09.03-06.44.30:325][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Torture_Chair_C (AutoDXT, 4096X4096)
+[2020.09.03-06.44.30:325][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_LUT (BGRA8, 256X16)
+[2020.09.03-06.44.30:325][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Torture_Chair_A (AutoDXT, 4096X4096)
+[2020.09.03-06.44.30:325][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Cubemap_Stairs (RGBA16F, 1000X500)
+[2020.09.03-06.44.30:326][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_RockyMud_02_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.44.30:326][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_RockyMud_01_RHA (AutoDXT, 2048X2048)
+[2020.09.03-06.44.30:326][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_RockyMud_02_RHA (AutoDXT, 2048X2048)
+[2020.09.03-06.44.30:326][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_RockyMud_02_NRM (BC5, 2048X2048)
+[2020.09.03-06.44.30:326][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_RockyMud_01_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.44.30:326][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_RockyMud_01_NRM (BC5, 2048X2048)
+[2020.09.03-06.44.30:326][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Torch_N (BC5, 2048X2048)
+[2020.09.03-06.44.30:326][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Torch_A (AutoDXT, 2048X2048)
+[2020.09.03-06.44.30:326][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Torch_C (AutoDXT, 2048X2048)
+[2020.09.03-06.44.30:326][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Gibbet_Cage_Mount_Texturing_N (BC5, 2048X2048)
+[2020.09.03-06.44.30:326][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Gibbet_Cage_Mount_Texturing_A (AutoDXT, 2048X2048)
+[2020.09.03-06.44.30:326][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Gibbet_Cage_Mount_Texturing_C (AutoDXT, 2048X2048)
+[2020.09.03-06.44.30:326][804]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Metal_N (BC5, 2048X2048)
+[2020.09.03-06.44.30:525][805]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Half_Arch_A (AutoDXT, 4096X4096)
+[2020.09.03-06.44.30:525][805]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Half_Arch_C (AutoDXT, 4096X4096)
+[2020.09.03-06.44.30:525][805]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Metal_A (AutoDXT, 2048X2048)
+[2020.09.03-06.44.30:525][805]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_DoorWay_Large_Door_Left_Normal (BC5, 4096X4096)
+[2020.09.03-06.44.30:525][805]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Metal_C (AutoDXT, 2048X2048)
+[2020.09.03-06.44.30:525][805]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Half_Arch_N (BC5, 4096X4096)
+[2020.09.03-06.44.30:525][805]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Chandelier_N (BC5, 4096X4096)
+[2020.09.03-06.44.30:525][805]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_CandleHolder_Iron_C (AutoDXT, 4096X4096)
+[2020.09.03-06.44.30:525][805]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_CandleStick_Iron_N (BC5, 4096X4096)
+[2020.09.03-06.44.30:525][805]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_DoorWay_Large_Door_Left_Compact (AutoDXT, 4096X4096)
+[2020.09.03-06.44.30:525][805]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_DoorWay_Large_Door_Left_Albedo (AutoDXT, 4096X4096)
+[2020.09.03-06.44.30:525][805]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Chandelier_C (AutoDXT, 4096X4096)
+[2020.09.03-06.44.30:525][805]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Chandelier_A (AutoDXT, 4096X4096)
+[2020.09.03-06.44.30:525][805]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_CandleStick_Iron_C (AutoDXT, 4096X4096)
+[2020.09.03-06.44.40:823][992]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_CandleStick_Iron_A (AutoDXT, 4096X4096)
+[2020.09.03-06.44.40:823][992]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_CandleStick_Bronze_N (BC5, 4096X4096)
+[2020.09.03-06.44.40:823][992]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_CandleHolder_Iron_N (BC5, 4096X4096)
+[2020.09.03-06.44.40:823][992]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_CandleHolder_Bronze_N (BC5, 4096X4096)
+[2020.09.03-06.44.41:176][ 22]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_CandleStick_Bronze_C (AutoDXT, 4096X4096)
+[2020.09.03-06.44.41:454][ 45]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_CandleStick_Bronze_A (AutoDXT, 4096X4096)
+[2020.09.03-06.44.41:694][ 60]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Candle_Holder_N (BC5, 2048X2048)
+[2020.09.03-06.44.42:625][158]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_CandleHolder_Bronze_A (AutoDXT, 4096X4096)
+[2020.09.03-06.44.42:625][158]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Candle_Holder_A (AutoDXT, 2048X2048)
+[2020.09.03-06.44.44:440][335]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_CandleHolder_Bronze_C (AutoDXT, 4096X4096)
+[2020.09.03-06.44.44:440][335]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Candle_Holder_C (AutoDXT, 2048X2048)
+[2020.09.03-06.44.45:134][412]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 535 Packages Remain 1006 Total 1541
+[2020.09.03-06.44.46:094][523]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.09.03-06.44.46:094][523]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_CandleFlame (AutoDXT, 512X512)
+[2020.09.03-06.44.46:274][542]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Candles_A (AutoDXT, 2048X2048)
+[2020.09.03-06.44.46:489][552]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Candles_C (AutoDXT, 2048X2048)
+[2020.09.03-06.44.46:606][565]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Candles_N (BC5, 2048X2048)
+[2020.09.03-06.44.47:165][627]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Fire_Pit_A (AutoDXT, 2048X2048)
+[2020.09.03-06.44.47:376][652]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Fire_Pit_N (BC5, 2048X2048)
+[2020.09.03-06.44.47:710][692]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 585 Packages Remain 1006 Total 1591
+[2020.09.03-06.44.47:820][704]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Decorative_Arches_N (BC5, 2048X2048)
+[2020.09.03-06.44.47:921][716]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 635 Packages Remain 1005 Total 1640
+[2020.09.03-06.44.47:963][721]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Statue, compiling.
+[2020.09.03-06.44.48:077][734]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Statue_Stand_Inst, compiling.
+[2020.09.03-06.44.48:126][740]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Skeleton_Dirty, compiling.
+[2020.09.03-06.44.48:182][747]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 685 Packages Remain 1004 Total 1689
+[2020.09.03-06.44.48:277][758]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_SplitLog_A (AutoDXT, 2048X2048)
+[2020.09.03-06.44.48:707][798]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_SplitLog_C (AutoDXT, 2048X2048)
+[2020.09.03-06.44.48:707][798]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Fire_Pit_C (AutoDXT, 2048X2048)
+[2020.09.03-06.44.48:707][798]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 735 Packages Remain 997 Total 1732
+[2020.09.03-06.44.59:166][899]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_SplitLog_N (BC5, 2048X2048)
+[2020.09.03-06.45.37:712][476]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 785 Packages Remain 982 Total 1767
+[2020.09.03-06.45.38:195][534]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 835 Packages Remain 981 Total 1816
+[2020.09.03-06.45.43:023][ 90]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Stairs_10_Albedo (AutoDXT, 4096X4096)
+[2020.09.03-06.45.43:023][ 90]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Stone_Altar_C (AutoDXT, 2048X2048)
+[2020.09.03-06.45.43:023][ 90]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Stone_Altar_N (BC5, 2048X2048)
+[2020.09.03-06.45.43:023][ 90]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Stone_Altar_A (AutoDXT, 2048X2048)
+[2020.09.03-06.45.43:023][ 90]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Stairs_10_Compact (AutoDXT, 4096X4096)
+[2020.09.03-06.45.43:503][137]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Small_Window_A (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Chains_Texturing_A (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Stairs_10_Normal (BC5, 4096X4096)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Small_Window_C (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Small_Window_N (BC5, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Chains_Texturing_C (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Chains_Texturing_N (BC5, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Bed_A (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Bed_C (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Bed_N (BC5, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Dirt_Mound_Texturing_A (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Dirt_Mound_Texturing_C (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Gargoyle_A (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Gargoyle_N (BC5, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Dirt_Mound_Texturing_N (BC5, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Gargoyle_Stand_A (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Gargoyle_Stand_C (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Gargoyle_Stand_N (BC5, 2048X2048)
+[2020.09.03-06.45.55:280][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Pots_Texturing_A (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:281][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Pots_Texturing_C (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:281][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Gargoyle_C (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:281][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Pots_Texturing_N (BC5, 2048X2048)
+[2020.09.03-06.45.55:281][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Statue_Hooded_R (BGRA8, 2048X2048)
+[2020.09.03-06.45.55:281][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Statue_Hooded_A (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:281][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Statue_Stand_A (AutoDXT, 2048X2048)
+[2020.09.03-06.45.55:281][377]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Wood_A (AutoDXT, 4096X4096)
+[2020.09.03-06.46.17:855][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Statue_Hooded_N (BC5, 2048X2048)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Statue_Stand_C (AutoDXT, 2048X2048)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Statue_Stand_N (BC5, 2048X2048)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Stone_Coffin_A (AutoDXT, 2048X2048)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Stone_Coffin_N (BC5, 2048X2048)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Stone_Coffin_C (AutoDXT, 2048X2048)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Stocks_A (AutoDXT, 4096X4096)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Stocks_C (AutoDXT, 4096X4096)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Stocks_N (BC5, 4096X4096)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Table_A (AutoDXT, 4096X4096)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Wood_C (AutoDXT, 4096X4096)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Skeleton_Clean_A (AutoDXT, 2048X2048)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Table_C (AutoDXT, 4096X4096)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Skeleton_Clean_C (AutoDXT, 2048X2048)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Table_N (BC5, 4096X4096)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Skeleton_Clean_N (BC5, 2048X2048)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Wood_N (BC5, 4096X4096)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Medieval_Dungeon_LUT (BGRA8, 256X16)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Skeleton_Dirty_A (AutoDXT, 2048X2048)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Canister_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Skeleton_Dirty_C (AutoDXT, 2048X2048)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Canister_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Skeleton_Dirty_N (BC5, 2048X2048)
+[2020.09.03-06.46.17:856][714]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 885 Packages Remain 980 Total 1865
+[2020.09.03-06.46.18:400][777]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 935 Packages Remain 969 Total 1904
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Canister_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_ConcreteMixer_01a_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_ConcreteMixer_01a_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_ConcreteMixer_01a_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_ConcreteMixer_01b_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_ConcreteMixer_01b_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Cord_01a_ALB (AutoDXT, 1024X128)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Cord_01a_NRM (BC5, 1024X128)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Cord_01a_RMA (AutoDXT, 1024X128)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_ConcreteMixer_01b_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_HandForklift_01a_ALB (AutoDXT, 2048X1024)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_ElectricDrill_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_ElectricDrill_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_HandForklift_01a_NRM (BC5, 2048X1024)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_HandForklift_01a_RMA (AutoDXT, 2048X1024)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_ElectricDrill_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_HardHat_01_Blue_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_HardHat_01_Yellow_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_HardHat_01_Blue_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_HardHat_01_Yellow_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_HardHat_01_Blue_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_HardHat_01_Yellow_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Jackhammer_01a_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Jackhammer_01a_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Jackhammer_01a_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Ladder_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Lunchbox_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Ladder_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Ladder_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_PaintBucket_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Lunchbox_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_PaintBucket_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_PaintBucket_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Lunchbox_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_PetrolCutter_01a_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_PetrolCutter_01a_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_PetrolCutter_01a_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Plywood_01_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Plywood_01_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Propane_01_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Propane_01_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Plywood_01_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.53:404][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Propane_01_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:405][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_RebarCutter_01a_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.53:405][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_RebarCutter_01a_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:405][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_RebarCutter_01a_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:405][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Spool_02a_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:405][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Sander_01a_NRM (BC5, 2048X2048)
+[2020.09.03-06.46.53:405][850]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Sander_01a_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.46.53:405][850]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 985 Packages Remain 968 Total 1953
+[2020.09.03-06.46.53:629][865]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 985 Packages Remain 954 Total 1939
+[2020.09.03-06.47.12:970][ 63]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Sander_01a_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.47.12:970][ 63]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Spool_02a_NRM (BC5, 2048X2048)
+[2020.09.03-06.47.12:970][ 63]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Spool_02a_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.47.12:970][ 63]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Surveyorstand_01a_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.47.12:970][ 63]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_SurveyorStand_01a_NRM (BC5, 2048X2048)
+[2020.09.03-06.47.12:970][ 63]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_TallGasCanister_01_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.47.12:970][ 63]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_TallGasCanister_01_NRM (BC5, 2048X2048)
+[2020.09.03-06.47.12:970][ 63]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_SurveyorStand_01a_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.47.12:970][ 63]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_TallGasCanister_01_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.47.12:970][ 63]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Steps_A (AutoDXT, 4096X4096)
+[2020.09.03-06.47.37:710][ 15]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Steps_C (AutoDXT, 4096X4096)
+[2020.09.03-06.47.37:710][ 15]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_Steps_N (BC5, 4096X4096)
+[2020.09.03-06.47.37:710][ 15]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1033 Packages Remain 953 Total 1986
+[2020.09.03-06.47.41:479][467]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1034 Packages Remain 750 Total 1784
+[2020.09.03-06.47.45:162][909]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1035 Packages Remain 749 Total 1784
+[2020.09.03-06.47.49:223][396]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1036 Packages Remain 747 Total 1783
+[2020.09.03-06.47.49:263][401]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1037 Packages Remain 738 Total 1775
+[2020.09.03-06.47.49:400][417]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1038 Packages Remain 733 Total 1771
+[2020.09.03-06.47.49:464][425]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1039 Packages Remain 732 Total 1771
+[2020.09.03-06.47.49:540][434]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1040 Packages Remain 728 Total 1768
+[2020.09.03-06.47.49:697][453]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1041 Packages Remain 727 Total 1768
+[2020.09.03-06.47.50:656][568]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1042 Packages Remain 723 Total 1765
+[2020.09.03-06.47.50:914][599]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1043 Packages Remain 713 Total 1756
+[2020.09.03-06.47.51:481][667]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1044 Packages Remain 712 Total 1756
+[2020.09.03-06.47.51:906][718]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1045 Packages Remain 711 Total 1756
+[2020.09.03-06.47.52:247][759]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1046 Packages Remain 710 Total 1756
+[2020.09.03-06.47.52:523][792]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1047 Packages Remain 709 Total 1756
+[2020.09.03-06.47.52:965][845]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1048 Packages Remain 708 Total 1756
+[2020.09.03-06.47.54:032][973]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1049 Packages Remain 699 Total 1748
+[2020.09.03-06.47.54:206][994]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1050 Packages Remain 697 Total 1747
+[2020.09.03-06.47.54:223][996]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1051 Packages Remain 680 Total 1731
+[2020.09.03-06.47.54:624][ 44]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1052 Packages Remain 678 Total 1730
+[2020.09.03-06.47.54:642][ 46]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1053 Packages Remain 670 Total 1723
+[2020.09.03-06.47.54:757][ 60]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1054 Packages Remain 669 Total 1723
+[2020.09.03-06.47.54:849][ 71]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1055 Packages Remain 644 Total 1699
+[2020.09.03-06.47.54:860][ 72]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1056 Packages Remain 633 Total 1689
+[2020.09.03-06.47.55:032][ 93]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1057 Packages Remain 628 Total 1685
+[2020.09.03-06.47.55:040][ 94]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1058 Packages Remain 626 Total 1684
+[2020.09.03-06.47.55:231][117]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1059 Packages Remain 616 Total 1675
+[2020.09.03-06.47.55:307][126]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1060 Packages Remain 603 Total 1663
+[2020.09.03-06.47.55:315][127]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1061 Packages Remain 602 Total 1663
+[2020.09.03-06.47.55:340][130]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1062 Packages Remain 601 Total 1663
+[2020.09.03-06.47.55:390][136]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1062 Packages Remain 599 Total 1661
+[2020.09.03-06.47.55:440][142]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1062 Packages Remain 594 Total 1656
+[2020.09.03-06.47.55:599][161]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Microdetail_MASK (AutoDXT, 512X512)
+[2020.09.03-06.47.55:599][161]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1062 Packages Remain 514 Total 1576
+[2020.09.03-06.47.59:523][613]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Dirt_01_ALB (AutoDXT, 1024X1024)
+[2020.09.03-06.47.59:523][613]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_DebrisTile_RMA (AutoDXT, 2048X2048)
+[2020.09.03-06.47.59:523][613]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Backdrop_01_NRM (BC5, 2048X2048)
+[2020.09.03-06.47.59:523][613]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_DebrisTile_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.47.59:523][613]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_DebrisTile_NRM (BC5, 2048X2048)
+[2020.09.03-06.47.59:523][613]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: TX_Backdrop_01_ALB (AutoDXT, 2048X2048)
+[2020.09.03-06.47.59:523][613]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1070 Packages Remain 512 Total 1582
+[2020.09.03-06.47.59:764][642]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material MM_PP_Sharpen, compiling.
+[2020.09.03-06.47.59:830][650]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1070 Packages Remain 461 Total 1531
+[2020.09.03-06.48.00:521][732]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1072 Packages Remain 431 Total 1503
+[2020.09.03-06.48.05:140][286]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1075 Packages Remain 415 Total 1490
+[2020.09.03-06.48.06:807][486]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1101 Packages Remain 414 Total 1515
+[2020.09.03-06.48.07:196][533]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1101 Packages Remain 383 Total 1484
+[2020.09.03-06.48.09:539][814]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1101 Packages Remain 375 Total 1476
+[2020.09.03-06.48.11:239][ 18]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1101 Packages Remain 352 Total 1453
+[2020.09.03-06.48.11:447][ 43]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1101 Packages Remain 351 Total 1452
+[2020.09.03-06.48.12:466][124]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1101 Packages Remain 328 Total 1429
+[2020.09.03-06.48.12:824][167]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1112 Packages Remain 314 Total 1426
+[2020.09.03-06.48.12:874][173]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1113 Packages Remain 313 Total 1426
+[2020.09.03-06.48.13:074][197]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1114 Packages Remain 312 Total 1426
+[2020.09.03-06.48.13:290][223]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1115 Packages Remain 311 Total 1426
+[2020.09.03-06.48.13:632][264]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1116 Packages Remain 310 Total 1426
+[2020.09.03-06.48.13:715][274]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1117 Packages Remain 309 Total 1426
+[2020.09.03-06.48.14:091][319]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1118 Packages Remain 308 Total 1426
+[2020.09.03-06.48.14:307][345]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1119 Packages Remain 307 Total 1426
+[2020.09.03-06.48.14:607][381]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1120 Packages Remain 306 Total 1426
+[2020.09.03-06.48.14:973][425]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1121 Packages Remain 303 Total 1424
+[2020.09.03-06.48.15:448][482]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1122 Packages Remain 302 Total 1424
+[2020.09.03-06.48.15:608][501]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1123 Packages Remain 301 Total 1424
+[2020.09.03-06.48.15:657][507]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1124 Packages Remain 300 Total 1424
+[2020.09.03-06.48.15:723][515]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1125 Packages Remain 299 Total 1424
+[2020.09.03-06.48.15:832][528]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1126 Packages Remain 298 Total 1424
+[2020.09.03-06.48.15:882][534]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1127 Packages Remain 296 Total 1423
+[2020.09.03-06.48.16:007][549]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1128 Packages Remain 292 Total 1420
+[2020.09.03-06.48.16:257][579]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1129 Packages Remain 291 Total 1420
+[2020.09.03-06.48.16:774][641]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1130 Packages Remain 290 Total 1420
+[2020.09.03-06.48.16:873][653]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1131 Packages Remain 289 Total 1420
+[2020.09.03-06.48.16:965][664]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1132 Packages Remain 286 Total 1418
+[2020.09.03-06.48.16:990][667]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1133 Packages Remain 284 Total 1417
+[2020.09.03-06.48.17:107][681]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1134 Packages Remain 280 Total 1414
+[2020.09.03-06.48.17:169][688]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1135 Packages Remain 279 Total 1414
+[2020.09.03-06.48.17:232][696]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1136 Packages Remain 278 Total 1414
+[2020.09.03-06.48.17:767][760]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1137 Packages Remain 275 Total 1412
+[2020.09.03-06.48.17:982][786]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1138 Packages Remain 270 Total 1408
+[2020.09.03-06.48.18:032][792]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1139 Packages Remain 269 Total 1408
+[2020.09.03-06.48.18:099][800]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1140 Packages Remain 266 Total 1406
+[2020.09.03-06.48.18:182][810]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1141 Packages Remain 262 Total 1403
+[2020.09.03-06.48.18:249][818]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1142 Packages Remain 259 Total 1401
+[2020.09.03-06.48.18:348][830]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1143 Packages Remain 257 Total 1400
+[2020.09.03-06.48.18:666][868]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1144 Packages Remain 255 Total 1399
+[2020.09.03-06.48.18:757][879]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1144 Packages Remain 251 Total 1395
+[2020.09.03-06.48.19:708][993]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1147 Packages Remain 219 Total 1366
+[2020.09.03-06.48.19:983][ 26]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1148 Packages Remain 207 Total 1355
+[2020.09.03-06.48.20:940][141]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1148 Packages Remain 205 Total 1353
+[2020.09.03-06.48.21:283][182]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1151 Packages Remain 204 Total 1355
+[2020.09.03-06.48.21:791][243]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1152 Packages Remain 203 Total 1355
+[2020.09.03-06.48.21:925][259]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1154 Packages Remain 202 Total 1356
+[2020.09.03-06.48.22:141][285]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1156 Packages Remain 201 Total 1357
+[2020.09.03-06.48.22:227][295]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1157 Packages Remain 200 Total 1357
+[2020.09.03-06.48.22:227][295]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1158 Packages Remain 199 Total 1357
+[2020.09.03-06.48.22:292][303]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1159 Packages Remain 198 Total 1357
+[2020.09.03-06.48.22:292][303]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1160 Packages Remain 197 Total 1357
+[2020.09.03-06.48.22:417][318]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1161 Packages Remain 196 Total 1357
+[2020.09.03-06.48.22:608][341]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1162 Packages Remain 190 Total 1352
+[2020.09.03-06.48.24:108][521]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1174 Packages Remain 187 Total 1361
+[2020.09.03-06.48.24:408][557]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1176 Packages Remain 178 Total 1354
+[2020.09.03-06.48.24:533][572]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1178 Packages Remain 176 Total 1354
+[2020.09.03-06.48.24:633][584]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1179 Packages Remain 164 Total 1343
+[2020.09.03-06.48.25:092][639]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1180 Packages Remain 162 Total 1342
+[2020.09.03-06.48.25:209][653]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1181 Packages Remain 160 Total 1341
+[2020.09.03-06.48.25:250][658]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1182 Packages Remain 159 Total 1341
+[2020.09.03-06.48.25:267][660]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1183 Packages Remain 158 Total 1341
+[2020.09.03-06.48.25:325][667]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1184 Packages Remain 155 Total 1339
+[2020.09.03-06.48.25:475][685]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1185 Packages Remain 128 Total 1313
+[2020.09.03-06.48.25:617][702]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material Ch22_hair, compiling.
+[2020.09.03-06.48.25:683][710]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1185 Packages Remain 85 Total 1270
+[2020.09.03-06.48.26:597][819]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material Ch22_body, compiling.
+[2020.09.03-06.48.29:129][996]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: Ch22_1001_Specular (AutoDXT, 4096X4096)
+[2020.09.03-06.48.29:129][996]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: Ch22_1002_Normal (BC5, 2048X2048)
+[2020.09.03-06.48.29:129][996]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: Ch22_1002_Diffuse (AutoDXT, 2048X2048)
+[2020.09.03-06.48.29:129][996]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: Ch22_1001_Glossiness (AutoDXT, 4096X4096)
+[2020.09.03-06.48.29:129][996]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: Ch22_1001_Normal (BC5, 4096X4096)
+[2020.09.03-06.48.29:129][996]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: Ch22_1001_Diffuse (AutoDXT, 4096X4096)
+[2020.09.03-06.48.39:030][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1194 Packages Remain 80 Total 1274
+[2020.09.03-06.48.39:545][ 70]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1195 Packages Remain 79 Total 1274
+[2020.09.03-06.48.39:545][ 70]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1195 Packages Remain 0 Total 1195
+[2020.09.03-06.48.39:545][ 70]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Finishing up...
+[2020.09.03-06.48.40:937][237]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2020.09.03-06.48.40:937][237]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2020.09.03-06.48.40:937][237]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2020.09.03-06.48.41:078][254]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.09.03-06.48.41:162][264]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Generated asset registry num assets 1193, size is 550.91kb
+[2020.09.03-06.48.41:162][264]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.09.03-06.48.41:162][264]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook by the book total time in tick 393.863607s total time 443.231262
+[2020.09.03-06.48.41:162][264]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Peak Used virtual 7580MB Peak Used physical 6889MB
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Hierarchy Timer Information:
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:   Root: 0.000s (0)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     StartCookByTheBookTime: 47.705s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       GenerateAssetRegistryTime: 46.676s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CleanSandboxTime: 0.062s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ProcessingAccessedStrings: 0.004s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CollectFilesToCook: 0.207s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         CookModificationDelegate: 0.000s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         GeneratePackageNames: 0.000s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       GenerateLongPackageName: 0.002s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     TickCookOnTheSide: 393.829s (160)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       LoadPackage: 159.023s (145)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CallBeginCacheForCookedPlatformData: 7.677s (160)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       PostLoadPackageFixup: 0.001s (160)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SavingPackages: 227.062s (114)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextPackage: 0.072s (2427)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextNextPackage: 42.649s (2409)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         SaveCookedPackage: 161.708s (1195)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           LoadPackage: 0.002s (1195)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           GEditorSavePackage: 161.656s (1195)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             ConvertingBlueprints: 0.008s (1195)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             VerifyCanCookPackage: 0.006s (1193)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ClearAllCachedCookedPlatformData: 0.019s (1195)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         EnqueueUnsavedPackages: 0.002s (21)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GeneratingBlueprintAssets: 0.401s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingCurrentIniSettings: 0.032s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.004s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingAssetRegistry: 0.147s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       BuildChunkManifest: 0.056s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveManifests: 0.006s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveRealAssetRegistry: 0.083s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       WriteCookerOpenOrder: 0.002s (1)
+[2020.09.03-06.48.41:170][265]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done!
+[2020.09.03-06.48.41:245][274]UATHelper: Packaging (Windows (64-bit)):   LogSavePackage: Display: Took 0.024850s to verify the EDL loading graph.
+[2020.09.03-06.48.41:270][277]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Misc Cook Stats
+[2020.09.03-06.48.41:270][277]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ===============
+[2020.09.03-06.48.41:306][281]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ShaderCompiler
+[2020.09.03-06.48.41:306][281]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BlockingTimeSec=15.969924
+[2020.09.03-06.48.41:306][281]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncCompileTimeSec=1043.464598
+[2020.09.03-06.48.41:306][281]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=0.728313
+[2020.09.03-06.48.41:306][281]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=1539
+[2020.09.03-06.48.41:306][281]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=0.445650
+[2020.09.03-06.48.41:306][281]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader.Misc
+[2020.09.03-06.48.41:306][281]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2020.09.03-06.48.41:306][281]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MeshMaterial.Misc
+[2020.09.03-06.48.41:306][281]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=1487
+[2020.09.03-06.48.41:306][281]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader.Misc
+[2020.09.03-06.48.41:306][281]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=52
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Load
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesLoaded=296
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     LoadPackageTimeSec=160.188491
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Save
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesSaved=1195
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavePackageTimeSec=160.898235
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=134.947435
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.221698
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ResetLoadersForSaveTimeSec=0.003307
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.006518
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.001349
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.413694
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeExportsTimeSec=0.447209
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeBulkDataTimeSec=3.782991
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncWriteTimeSec=0.000000
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     MBWritten=1881.538025
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DiffTotal
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Cook Profile
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ============
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0.CookWallTimeSec=456.144903
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=12.834480
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=443.310402
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=47.704996
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000051
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=395.489558
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=159.025895
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=161.708446
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=50.394999
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=22.230541
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.002099
+[2020.09.03-06.48.41:346][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.018765
+[2020.09.03-06.48.41:347][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000168
+[2020.09.03-06.48.41:347][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000010
+[2020.09.03-06.48.41:347][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2020.09.03-06.48.41:347][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Summary Stats
+[2020.09.03-06.48.41:347][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =================
+[2020.09.03-06.48.41:347][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHits    =      3335
+[2020.09.03-06.48.41:347][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGets       =      4238
+[2020.09.03-06.48.41:347][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHitPct  =  0.786928
+[2020.09.03-06.48.41:347][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: LocalGetHitPct  =  0.130014
+[2020.09.03-06.48.41:347][286]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: OtherGetHitPct  =  0.656914
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GetMissPct      =  0.213072
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHits    =      2379
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPuts       =      2379
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHitPct  =  1.000000
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PutMissPct      =  0.000000
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Resource Stats
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =======================================================================================================
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Streaming)                           585.67                   0.02             0       1625.06
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Inline)                              118.45                 118.45           240       1512.10
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: StaticMesh                                     29.99                  29.99           197         76.40
+[2020.09.03-06.48.41:353][287]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader                                 29.33                  29.33            23         18.26
+[2020.09.03-06.48.41:369][289]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PhysX (BodySetup)                              17.85                  17.85           227         45.19
+[2020.09.03-06.48.41:369][289]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NavCollision                                    7.07                   7.07           198          2.47
+[2020.09.03-06.48.41:369][289]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader                                    0.20                   0.20             0          5.49
+[2020.09.03-06.48.41:369][289]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SkeletalMesh                                    0.10                   0.10             0         11.86
+[2020.09.03-06.48.41:369][289]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SoundWave                                       0.00                   0.00             0          3.20
+[2020.09.03-06.48.41:369][289]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DistanceField                                   0.00                   0.00             0          0.00
+[2020.09.03-06.48.41:411][294]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2020.09.03-06.48.41:411][294]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Warning/Error Summary (Unique only)
+[2020.09.03-06.48.41:411][294]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: -----------------------------------
+[2020.09.03-06.48.41:411][294]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Overview contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.48.41:411][294]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogReflectionCaptureComponent: Warning: /Game/Construction_VOL2/Maps/Demonstration contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.09.03-06.48.41:561][312]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2020.09.03-06.48.41:561][312]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Success - 0 error(s), 30 warning(s)
+[2020.09.03-06.48.41:561][312]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2020.09.03-06.48.41:561][312]UATHelper: Packaging (Windows (64-bit)):   
+[2020.09.03-06.48.41:561][312]UATHelper: Packaging (Windows (64-bit)):   Execution of commandlet took:  443.63 seconds
+[2020.09.03-06.48.49:412][217]UATHelper: Packaging (Windows (64-bit)):   Unable to read VR Path Registry from C:\Users\IM\AppData\Local\openvr\openvrpaths.vrpath
+[2020.09.03-06.48.56:298][ 43]UATHelper: Packaging (Windows (64-bit)): Took 471.3520519s to run UE4Editor-Cmd.exe, ExitCode=0
+[2020.09.03-06.48.56:354][ 45]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND COMPLETED **********
+[2020.09.03-06.48.56:382][ 46]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND STARTED **********
+[2020.09.03-06.48.56:946][114]UATHelper: Packaging (Windows (64-bit)): Creating Staging Manifest...
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\BaseEditor.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\BaseEditorKeyBindings.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\BaseEditorSettings.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\BaseLightmass.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\BasePakFileRules.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\Localization\Category.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\Localization\Editor.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\Localization\EditorTutorials.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\Localization\Engine.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\Localization\Keywords.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\Localization\PortableObjectExport.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\Localization\PortableObjectImport.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\Localization\PropertyNames.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\Localization\RepairData.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\Localization\ToolTips.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\Epic Games\UE_4.24\Engine\Config\Localization\WordCount.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\new_lizhen\new_lizhen\1\Config\DefaultEditor.ini
+[2020.09.03-06.48.58:254][271]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\new_lizhen\new_lizhen\1\Config\DefaultEditorPerProjectUserSettings.ini
+[2020.09.03-06.48.58:471][297]UATHelper: Packaging (Windows (64-bit)): Cleaning Stage Directory: D:\new_lizhen\new_lizhen\1\Saved\StagedBuilds\WindowsNoEditor
+[2020.09.03-06.48.58:546][306]UATHelper: Packaging (Windows (64-bit)): Creating pak using staging manifest.
+[2020.09.03-06.48.59:280][394]UATHelper: Packaging (Windows (64-bit)): Executing 1 UnrealPak command...
+[2020.09.03-06.49.09:355][603]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (0/1)
+[2020.09.03-06.49.18:314][678]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (1/1)
+[2020.09.03-06.49.18:314][678]UATHelper: Packaging (Windows (64-bit)): Output from: D:\new_lizhen\new_lizhen\1\MyProject2.uproject D:\new_lizhen\new_lizhen\1\Saved\StagedBuilds\WindowsNoEditor\MyProject2\Content\Paks\MyProject2-WindowsNoEditor.pak -create="C:\Users\IM\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.24\PakList_MyProject2-WindowsNoEditor.txt" -cryptokeys=D:\new_lizhen\new_lizhen\1\Saved\Cooked\WindowsNoEditor\MyProject2\Metadata\Crypto.json -order=D:\new_lizhen\new_lizhen\1\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log -patchpaddingalign=2048 -compressionformats=  -multiprocess -abslog="C:\Users\IM\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.24\UnrealPak-MyProject2-WindowsNoEditor-2020.09.03-14.48.59.txt"
+[2020.09.03-06.49.18:540][705]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2020.09.03-06.49.18:540][705]UATHelper: Packaging (Windows (64-bit)):   LogCompression: Display: FCompression::GetCompressionFormat - Unable to find a module or plugin for compression format -multiprocess
+[2020.09.03-06.49.18:540][705]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading response file C:\Users\IM\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.24\PakList_MyProject2-WindowsNoEditor.txt
+[2020.09.03-06.49.18:540][705]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 3847 entries to add to pak file.
+[2020.09.03-06.49.18:540][705]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading pak order file D:\new_lizhen\new_lizhen\1\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log...
+[2020.09.03-06.49.18:540][705]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Finished loading pak order file D:\new_lizhen\new_lizhen\1\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log.
+[2020.09.03-06.49.18:540][705]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collecting files to add to pak file...
+[2020.09.03-06.49.18:540][705]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collected 3847 files in 0.01s.
+[2020.09.03-06.49.18:540][705]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Creating pak D:\new_lizhen\new_lizhen\1\Saved\StagedBuilds\WindowsNoEditor\MyProject2\Content\Paks\MyProject2-WindowsNoEditor.pak.
+[2020.09.03-06.49.18:540][705]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.03-06.49.18:540][705]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 3847 files, 1994392199 bytes total, time 16.55s.
+[2020.09.03-06.49.18:540][705]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Encryption - DISABLED
+[2020.09.03-06.49.18:540][705]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Unreal pak executed in 16.657392 seconds
+[2020.09.03-06.49.18:540][705]UATHelper: Packaging (Windows (64-bit)): UnrealPak terminated with exit code 0
+[2020.09.03-06.49.18:548][706]UATHelper: Packaging (Windows (64-bit)): Copying NonUFSFiles to staging directory: D:\new_lizhen\new_lizhen\1\Saved\StagedBuilds\WindowsNoEditor
+[2020.09.03-06.49.48:596][263]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND COMPLETED **********
+[2020.09.03-06.49.48:596][263]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND STARTED **********
+[2020.09.03-06.49.48:596][263]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND COMPLETED **********
+[2020.09.03-06.49.48:596][263]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND STARTED **********
+[2020.09.03-06.49.48:596][263]UATHelper: Packaging (Windows (64-bit)): Archiving to D:/new_lizhen RPG
+[2020.09.03-06.50.23:616][465]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND COMPLETED **********
+[2020.09.03-06.50.23:616][465]UATHelper: Packaging (Windows (64-bit)): BUILD SUCCESSFUL
+[2020.09.03-06.50.23:616][465]UATHelper: Packaging (Windows (64-bit)): AutomationTool exiting with ExitCode=0 (Success)
+[2020.09.03-07.12.59:517][337]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2020.09.03-07.12.59:565][337]LogSlate: Window 'MyProject2 - Unreal Editor' being destroyed
+[2020.09.03-07.12.59:606][337]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-07.12.59:606][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-07.12.59:651][337]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.09.03-07.12.59:651][337]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-07.12.59:651][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-07.12.59:693][337]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.09.03-07.12.59:693][337]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-07.12.59:693][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-07.12.59:788][338]Cmd: QUIT_EDITOR
+[2020.09.03-07.12.59:788][338]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.09.03-07.12.59:794][338]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.09.03-07.12.59:794][338]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-07.13.00:670][338]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微軟注音).
+[2020.09.03-07.13.00:677][338]LogExit: Preparing to exit.
+[2020.09.03-07.13.00:864][338]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-07.13.00:869][338]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-07.13.00:873][338]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-07.13.00:876][338]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-07.13.00:880][338]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-07.13.00:883][338]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-07.13.00:887][338]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-07.13.00:890][338]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-07.13.00:894][338]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-07.13.00:896][338]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-07.13.00:946][338]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.09.03-07.13.00:969][338]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-07.13.00:970][338]LogExit: Editor shut down
+[2020.09.03-07.13.00:970][338]LogExit: Transaction tracking system shut down
+[2020.09.03-07.13.01:243][338]LogExit: Object subsystem successfully closed.
+[2020.09.03-07.13.01:260][338]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.09.03-07.13.01:304][338]LogModuleManager: Shutting down and abandoning module UATHelper (706)
+[2020.09.03-07.13.01:304][338]LogModuleManager: Shutting down and abandoning module LauncherServices (704)
+[2020.09.03-07.13.01:304][338]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (702)
+[2020.09.03-07.13.01:304][338]LogModuleManager: Shutting down and abandoning module Voice (700)
+[2020.09.03-07.13.01:319][338]LogModuleManager: Shutting down and abandoning module BlueprintGraph (698)
+[2020.09.03-07.13.01:319][338]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (696)
+[2020.09.03-07.13.01:319][338]LogModuleManager: Shutting down and abandoning module SceneOutliner (694)
+[2020.09.03-07.13.01:319][338]LogModuleManager: Shutting down and abandoning module AddContentDialog (692)
+[2020.09.03-07.13.01:319][338]LogModuleManager: Shutting down and abandoning module WidgetCarousel (691)
+[2020.09.03-07.13.01:319][338]LogModuleManager: Shutting down and abandoning module EditorWidgets (688)
+[2020.09.03-07.13.01:319][338]LogModuleManager: Shutting down and abandoning module CollectionManager (686)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module StatsViewer (684)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (682)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module FoliageEdit (680)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module LandscapeEditor (678)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module MeshPaintMode (676)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (674)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module ActorPickerMode (672)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module GeometryMode (670)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module TextureAlignMode (668)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module BspMode (666)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (664)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (662)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module AutomationWorker (660)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module SteamVREditor (658)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module OculusMR (656)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (654)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (652)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (650)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module PlacementMode (649)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module MaterialEditor (648)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (644)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (642)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (640)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (638)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (636)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module WebMMedia (634)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (632)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (630)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module SequenceRecorder (629)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (626)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (624)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (622)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (620)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (618)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (616)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (614)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (612)
+[2020.09.03-07.13.01:320][338]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (610)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (608)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module CharacterAI (606)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module SmartSnapping (604)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module SessionServices (602)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module MeshPaint (600)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module ViewportSnapping (598)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module ViewportInteraction (596)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module ClothPainter (594)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (593)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module LogVisualizer (590)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module IntroTutorials (588)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (587)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (584)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (582)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (580)
+[2020.09.03-07.13.01:321][338]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (579)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (576)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (574)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (572)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (570)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (568)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (566)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module InputBindingEditor (564)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module MergeActors (562)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (560)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module LocalizationService (559)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module HardwareTargeting (556)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (554)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module UndoHistory (552)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module XmlParser (550)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module Blutility (548)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (546)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (545)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (542)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module SettingsEditor (540)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module ProjectLauncher (538)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module SessionFrontend (536)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module ProfilerClient (534)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module DeviceManager (532)
+[2020.09.03-07.13.01:758][338]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (531)
+[2020.09.03-07.13.01:791][338]LogModuleManager: Shutting down and abandoning module AutomationController (528)
+[2020.09.03-07.13.01:791][338]LogModuleManager: Shutting down and abandoning module AutomationWindow (526)
+[2020.09.03-07.13.01:791][338]LogModuleManager: Shutting down and abandoning module Layers (524)
+[2020.09.03-07.13.01:791][338]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (522)
+[2020.09.03-07.13.01:791][338]LogModuleManager: Shutting down and abandoning module DetailCustomizations (520)
+[2020.09.03-07.13.01:791][338]LogModuleManager: Shutting down and abandoning module PackagesDialog (518)
+[2020.09.03-07.13.01:791][338]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (516)
+[2020.09.03-07.13.01:791][338]LogModuleManager: Shutting down and abandoning module Persona (514)
+[2020.09.03-07.13.01:791][338]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (513)
+[2020.09.03-07.13.01:791][338]LogModuleManager: Shutting down and abandoning module AnimGraph (511)
+[2020.09.03-07.13.01:791][338]LogModuleManager: Shutting down and abandoning module Kismet (508)
+[2020.09.03-07.13.01:800][338]LogModuleManager: Shutting down and abandoning module KismetWidgets (507)
+[2020.09.03-07.13.01:800][338]LogModuleManager: Shutting down and abandoning module GraphEditor (504)
+[2020.09.03-07.13.01:800][338]LogModuleManager: Shutting down and abandoning module StructViewer (502)
+[2020.09.03-07.13.01:800][338]LogModuleManager: Shutting down and abandoning module ClassViewer (500)
+[2020.09.03-07.13.01:800][338]LogModuleManager: Shutting down and abandoning module Toolbox (498)
+[2020.09.03-07.13.01:800][338]LogModuleManager: Shutting down and abandoning module ModuleUI (496)
+[2020.09.03-07.13.01:801][338]LogModuleManager: Shutting down and abandoning module OutputLog (494)
+[2020.09.03-07.13.01:801][338]LogModuleManager: Shutting down and abandoning module GammaUI (492)
+[2020.09.03-07.13.01:801][338]LogModuleManager: Shutting down and abandoning module Documentation (490)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module ToolMenus (488)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module LiveCoding (486)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module LevelSequence (484)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (482)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module MovieScene (480)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (478)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module LauncherPlatform (476)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module AnalyticsET (474)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module PortalServices (472)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module PortalRpc (470)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module MessagingRpc (468)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (466)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module AIModule (464)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module GameplayDebugger (463)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module AITestSuite (461)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module NavigationSystem (459)
+[2020.09.03-07.13.01:802][338]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (456)
+[2020.09.03-07.13.01:805][338]LogModuleManager: Shutting down and abandoning module ProfilerService (454)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module TaskGraph (452)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module ScreenshotTools (450)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (448)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (446)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module OculusEditor (444)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module OculusInput (442)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (440)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module EditableMesh (438)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (436)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module CableComponent (434)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module AudioCapture (432)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (431)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module AssetTags (428)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (426)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (424)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module AppleImageUtils (422)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module AndroidPermission (420)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (418)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (416)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module MediaCompositing (414)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module ImgMedia (412)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (410)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (408)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (406)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (404)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (402)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module BackChannel (400)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (398)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module AutomationUtils (396)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module AlembicImporter (394)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module AlembicLibrary (393)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module GeometryCache (392)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (391)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (386)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (384)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (382)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module PluginBrowser (380)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (378)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (376)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module CurveEditorTools (374)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (372)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module CryptoKeys (370)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (368)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (366)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module UObjectPlugin (364)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (362)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (360)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (358)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module GitSourceControl (356)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module SourceControl (355)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (352)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (350)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (348)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (346)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (344)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (342)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (340)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module Paper2DEditor (338)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module SignificanceManager (336)
+[2020.09.03-07.13.01:907][338]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (334)
+[2020.09.03-07.13.01:908][338]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (332)
+[2020.09.03-07.13.01:908][338]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (328)
+[2020.09.03-07.13.01:908][338]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2020.09.03-07.13.01:908][338]LogModuleManager: Shutting down and abandoning module UdpMessaging (324)
+[2020.09.03-07.13.02:009][338]LogModuleManager: Shutting down and abandoning module TcpMessaging (322)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (320)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (318)
+[2020.09.03-07.13.02:110][338]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (316)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (314)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (312)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (310)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (308)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (306)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module MagicLeapController (304)
+[2020.09.03-07.13.02:110][338]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (302)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module MagicLeapAR (300)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module AugmentedReality (299)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (296)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (294)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module FacialAnimation (292)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module DataValidation (290)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (288)
+[2020.09.03-07.13.02:110][338]LogModuleManager: Shutting down and abandoning module LevelEditor (287)
+[2020.09.03-07.13.02:111][338]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (286)
+[2020.09.03-07.13.02:111][338]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (284)
+[2020.09.03-07.13.02:111][338]LogModuleManager: Shutting down and abandoning module MainFrame (282)
+[2020.09.03-07.13.02:111][338]LogModuleManager: Shutting down and abandoning module HotReload (281)
+[2020.09.03-07.13.02:111][338]LogModuleManager: Shutting down and abandoning module ContentBrowser (277)
+[2020.09.03-07.13.02:112][338]LogModuleManager: Shutting down and abandoning module TreeMap (275)
+[2020.09.03-07.13.02:112][338]LogModuleManager: Shutting down and abandoning module AnimationSharing (272)
+[2020.09.03-07.13.02:112][338]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (270)
+[2020.09.03-07.13.02:112][338]LogModuleManager: Shutting down and abandoning module Paper2D (268)
+[2020.09.03-07.13.02:112][338]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (266)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (264)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (262)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module PacketHandler (260)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (258)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (256)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module MediaAssets (254)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module Overlay (252)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module OverlayEditor (251)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module VREditor (248)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module StringTableEditor (246)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (244)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (242)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module FunctionalTesting (240)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (238)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (237)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module UMG (234)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module UMGEditor (233)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module MessageLog (231)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module SlateReflector (226)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module Slate (224)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module SlateCore (222)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (220)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module UnrealEd (218)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module MRMesh (216)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (214)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (212)
+[2020.09.03-07.13.02:113][338]LogModuleManager: Shutting down and abandoning module XAudio2 (210)
+[2020.09.03-07.13.02:114][338]LogModuleManager: Shutting down and abandoning module Networking (208)
+[2020.09.03-07.13.02:114][338]LogModuleManager: Shutting down and abandoning module Core (206)
+[2020.09.03-07.13.02:114][338]LogModuleManager: Shutting down and abandoning module MovieSceneTools (204)
+[2020.09.03-07.13.02:114][338]LogModuleManager: Shutting down and abandoning module CurveEditor (203)
+[2020.09.03-07.13.02:114][338]LogModuleManager: Shutting down and abandoning module Sequencer (201)
+[2020.09.03-07.13.02:114][338]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.09.03-07.13.02:114][338]LogModuleManager: Shutting down and abandoning module KismetCompiler (196)
+[2020.09.03-07.13.02:114][338]LogModuleManager: Shutting down and abandoning module MeshUtilities (194)
+[2020.09.03-07.13.02:114][338]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (193)
+[2020.09.03-07.13.02:114][338]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (192)
+[2020.09.03-07.13.02:114][338]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (191)
+[2020.09.03-07.13.02:114][338]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (189)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (187)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (185)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module MaterialBaking (181)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (176)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module DerivedDataCache (174)
+[2020.09.03-07.13.02:115][338]LogDerivedDataCache: Shutdown
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module XGEController (172)
+[2020.09.03-07.13.02:115][338]LogXGEController: Cleaning working directory: C:/Users/IM/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (157)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (147)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (145)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (143)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (141)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (139)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (137)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (135)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (133)
+[2020.09.03-07.13.02:115][338]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (131)
+[2020.09.03-07.13.02:116][338]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2020.09.03-07.13.02:116][338]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (127)
+[2020.09.03-07.13.02:116][338]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (125)
+[2020.09.03-07.13.02:116][338]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (123)
+[2020.09.03-07.13.02:116][338]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2020.09.03-07.13.02:116][338]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2020.09.03-07.13.02:116][338]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2020.09.03-07.13.02:116][338]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2020.09.03-07.13.02:116][338]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2020.09.03-07.13.02:117][338]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (109)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module InputCore (106)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module Settings (104)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module Chaos (94)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (88)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module SteamVRInput (86)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2020.09.03-07.13.02:121][338]LogHMD: Freeing OpenVRDLLHandle.
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2020.09.03-07.13.02:121][338]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2020.09.03-07.13.02:122][338]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2020.09.03-07.13.02:122][338]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2020.09.03-07.13.02:142][338]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2020.09.03-07.13.02:142][338]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.09.03-07.13.02:142][338]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC912CFC9-4BAA-14A5-6979-60B179CD62F8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=a0119c19464f79832512e4a0f7d829a7%7C9f99774a4a044a2fae4b2e6f968319a6%7C3bc869e1-6495-4be4-8411-49717fca9374&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2020.09.03-07.13.02:176][338]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2020.09.03-07.13.02:176][338]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
+[2020.09.03-07.13.02:177][338]LogModuleManager: Shutting down and abandoning module Media (57)
+[2020.09.03-07.13.02:178][338]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
+[2020.09.03-07.13.02:178][338]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.09.03-07.13.02:178][338]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.09.03-07.13.02:178][338]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.09.03-07.13.02:178][338]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.09.03-07.13.02:178][338]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.09.03-07.13.02:178][338]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.09.03-07.13.02:178][338]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.09.03-07.13.02:178][338]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.09.03-07.13.02:178][338]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.09.03-07.13.02:179][338]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.09.03-07.13.02:179][338]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.09.03-07.13.02:179][338]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.09.03-07.13.02:179][338]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.09.03-07.13.02:179][338]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.09.03-07.13.02:180][338]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.09.03-07.13.02:180][338]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.09.03-07.13.02:180][338]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.09.03-07.13.02:180][338]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.09.03-07.13.02:180][338]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.09.03-07.13.02:180][338]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.09.03-07.13.02:180][338]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.09.03-07.13.02:180][338]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.09.03-07.13.02:180][338]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.09.03-07.13.02:180][338]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.09.03-07.13.02:180][338]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.09.03-07.13.02:180][338]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.09.03-07.13.02:181][338]LogD3D11RHI: Shutdown
+[2020.09.03-07.13.02:181][338]LogD3D11RHI: CleanupD3DDevice
+[2020.09.03-07.13.02:192][338]LogExit: Exiting.
+[2020.09.03-07.13.02:206][338]Log file closed, 09/03/20 15:13:02
