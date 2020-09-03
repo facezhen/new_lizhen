@@ -1,4 +1,4 @@
-﻿Log file open, 09/03/20 13:36:44
+﻿Log file open, 09/03/20 14:14:11
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: MyProject2
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.049477
+LogStats: Stats thread started at 0.050193
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -163,947 +163,898 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.09.03-05.36.44:268][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.09.03-05.36.44:268][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.09.03-05.36.44:268][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Engine.ini]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Engine.ini]
-[2020.09.03-05.36.44:269][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Engine.ini]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Engine.ini]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.09.03-05.36.44:269][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Engine.ini]
-[2020.09.03-05.36.44:269][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Engine.ini]
-[2020.09.03-05.36.44:271][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.03-05.36.44:271][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.09.03-05.36.44:272][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.09.03-05.36.44:272][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.03-05.36.44:272][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.09.03-05.36.44:274][  0]LogHAL: Display: Platform has ~ 16 GB [17048686592 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.09.03-05.36.44:274][  0]LogInit: Going up to parent DeviceProfile []
-[2020.09.03-05.36.44:274][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.03-05.36.44:274][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.09.03-05.36.44:275][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Engine.ini]
-[2020.09.03-05.36.44:275][  0]LogInit: Computer: M514-053
-[2020.09.03-05.36.44:275][  0]LogInit: User: IM
-[2020.09.03-05.36.44:275][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.09.03-05.36.44:275][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.09.03-05.36.44:275][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.09.03-05.36.44:275][  0]LogMemory: Platform Memory Stats for Windows
-[2020.09.03-05.36.44:275][  0]LogMemory: Process Physical Memory: 105.86 MB used, 105.86 MB peak
-[2020.09.03-05.36.44:275][  0]LogMemory: Process Virtual Memory: 101.42 MB used, 101.42 MB peak
-[2020.09.03-05.36.44:275][  0]LogMemory: Physical Memory: 2682.91 MB used,  13575.98 MB free, 16258.89 MB total
-[2020.09.03-05.36.44:275][  0]LogMemory: Virtual Memory: 5159.34 MB used,  134212568.00 MB free, 134217728.00 MB total
-[2020.09.03-05.36.44:278][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.09.03-05.36.44:287][  0]LogInit: Using OS detected language (zh-TW).
-[2020.09.03-05.36.44:287][  0]LogInit: Using OS detected locale (zh-TW).
-[2020.09.03-05.36.44:288][  0]LogTextLocalizationManager: No localization for 'zh-TW' exists, so 'en' will be used for the language.
-[2020.09.03-05.36.44:403][  0]LogInit: Setting process to per monitor DPI aware
-[2020.09.03-05.36.44:443][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.09.03-05.36.44:443][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.09.03-05.36.44:532][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.09.03-05.36.44:532][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.09.03-05.36.44:532][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.09.03-05.36.44:532][  0]LogD3D11RHI: D3D11 adapters:
-[2020.09.03-05.36.44:572][  0]LogD3D11RHI:    0. 'NVIDIA Quadro P1000' (Feature Level 11_0)
-[2020.09.03-05.36.44:572][  0]LogD3D11RHI:       4019/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.09.03-05.36.44:573][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.09.03-05.36.44:573][  0]LogD3D11RHI:       0/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.09.03-05.36.44:573][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.09.03-05.36.44:577][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.09.03-05.36.44:577][  0]LogD3D11RHI:     GPU DeviceId: 0x1cb1 (for the marketing name, search the web for "GPU Device Id")
-[2020.09.03-05.36.44:577][  0]LogWindows: EnumDisplayDevices:
-[2020.09.03-05.36.44:578][  0]LogWindows:    0. 'NVIDIA Quadro P1000' (P:1 D:1)
-[2020.09.03-05.36.44:578][  0]LogWindows:    1. 'NVIDIA Quadro P1000' (P:0 D:0)
-[2020.09.03-05.36.44:578][  0]LogWindows:    2. 'NVIDIA Quadro P1000' (P:0 D:0)
-[2020.09.03-05.36.44:578][  0]LogWindows:    3. 'NVIDIA Quadro P1000' (P:0 D:0)
-[2020.09.03-05.36.44:578][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.09.03-05.36.44:578][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro P1000
-[2020.09.03-05.36.44:578][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
-[2020.09.03-05.36.44:578][  0]LogD3D11RHI:      Driver Date: 5-22-2019
-[2020.09.03-05.36.44:578][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
-[2020.09.03-05.36.44:609][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.09.03-05.36.44:609][  0]LogD3D11RHI: Async texture creation enabled
-[2020.09.03-05.36.44:618][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.09.03-05.36.44:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.09.03-05.36.44:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.09.03-05.36.44:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.09.03-05.36.44:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.09.03-05.36.44:874][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.09.03-05.36.44:878][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.09.03-05.36.44:884][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.09.03-05.36.44:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.09.03-05.36.44:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.09.03-05.36.44:898][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.09.03-05.36.44:915][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.09.03-05.36.44:915][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.09.03-05.36.44:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.09.03-05.36.44:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.09.03-05.36.44:930][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.09.03-05.36.44:935][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.09.03-05.36.44:940][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.09.03-05.36.44:945][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.09.03-05.36.44:945][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.09.03-05.36.44:947][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.09.03-05.36.44:963][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (D:/new_lizhen/new_lizhen/1/Intermediate/Shaders/WorkingDirectory/8280/).
-[2020.09.03-05.36.44:963][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/IM/AppData/Local/Temp/UnrealShaderWorkingDir/1FBC68F4403C504DCF68359097CC7081/'.
-[2020.09.03-05.36.44:963][  0]LogXGEController: Cleaning working directory: C:/Users/IM/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.09.03-05.36.44:963][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.09.03-05.36.44:964][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.09.03-05.36.44:964][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.09.03-05.36.45:501][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.09.03-05.36.45:543][  0]LogDerivedDataCache: Loaded boot cache 0.04s 79MB C:/Users/IM/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.09.03-05.36.45:543][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/IM/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.09.03-05.36.45:543][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/new_lizhen/new_lizhen/1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.09.03-05.36.45:543][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.09.03-05.36.45:543][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/new_lizhen/new_lizhen/1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.03-05.36.45:543][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.09.03-05.36.45:551][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.09.03-05.36.45:551][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.03-05.36.45:551][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.09.03-05.36.45:552][  0]LogDerivedDataCache: Using Local data cache path C:/Users/IM/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.09.03-05.36.45:552][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.09.03-05.36.45:552][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.09.03-05.36.45:573][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.09.03-05.36.45:575][  0]LogSlate: Using FreeType 2.10.0
-[2020.09.03-05.36.45:575][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.09.03-05.36.45:613][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
-[2020.09.03-05.36.45:827][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.03-05.36.45:942][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.09.03-05.36.45:942][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.09.03-05.36.45:942][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.09.03-05.36.45:942][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.09.03-05.36.45:942][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.09.03-05.36.45:951][  0]LogNetVersion: MyProject2 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 813727915)
-[2020.09.03-05.36.46:701][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.050899 seconds
-[2020.09.03-05.36.46:706][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.09.03-05.36.46:706][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.09.03-05.36.46:706][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.09.03-05.36.46:978][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.09.03-05.36.46:979][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.09.03-05.36.47:011][  0]SourceControl: Source control is disabled
-[2020.09.03-05.36.47:011][  0]SourceControl: Source control is disabled
-[2020.09.03-05.36.47:012][  0]SourceControl: Source control is disabled
-[2020.09.03-05.36.47:012][  0]SourceControl: Source control is disabled
-[2020.09.03-05.36.47:013][  0]SourceControl: Source control is disabled
-[2020.09.03-05.36.47:062][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.09.03-05.36.47:068][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.09.03-05.36.47:068][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.09.03-05.36.47:128][  0]LogOcInput: OculusInput pre-init called
-[2020.09.03-05.36.47:133][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.09.03-05.36.47:133][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.09.03-05.36.47:183][  0]LogEngine: Initializing Engine...
-[2020.09.03-05.36.47:183][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.09.03-05.36.47:184][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.09.03-05.36.47:428][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.09.03-05.36.47:434][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.09.03-05.36.47:439][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.03-05.36.47:439][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.03-05.36.47:439][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.03-05.36.47:439][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.03-05.36.47:439][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.03-05.36.47:439][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.03-05.36.47:439][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.03-05.36.47:439][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.03-05.36.47:439][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.03-05.36.47:439][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.03-05.36.47:443][  0]LogAudioMixer: Display: Using Audio Device Unknown
-[2020.09.03-05.36.47:446][  0]LogInit: FAudioDevice initialized.
-[2020.09.03-05.36.47:446][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.09.03-05.36.47:600][  0]LogDerivedDataCache: Saved boot cache 0.15s 79MB C:/Users/IM/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.09.03-05.36.47:603][  0]LogInit: Texture streaming: Enabled
-[2020.09.03-05.36.47:611][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.09.03-05.36.47:611][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.09.03-05.36.47:612][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.09.03-05.36.47:646][  0]LogInit: Transaction tracking system initialized
-[2020.09.03-05.36.47:653][  0]BlueprintLog: New page: Editor Load
-[2020.09.03-05.36.47:671][  0]LocalizationService: Localization service is disabled
-[2020.09.03-05.36.47:857][  0]LogFileCache: Scanning file cache for directory 'D:/new_lizhen/new_lizhen/1/Content/' took 0.00s
-[2020.09.03-05.36.47:857][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.09.03-05.36.47:857][  0]LogCook: Display: Mobile HDR setting 1
-[2020.09.03-05.36.48:308][  0]SourceControl: Source control is disabled
-[2020.09.03-05.36.48:308][  0]Cmd: MAP LOAD FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.09.03-05.36.48:308][  0]LightingResults: New page: Lighting Build
-[2020.09.03-05.36.48:309][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.09.03-05.36.48:309][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.03-05.36.48:309][  0]MapCheck: New page: Map Check
-[2020.09.03-05.36.48:309][  0]LightingResults: New page: Lighting Build
-[2020.09.03-05.36.48:334][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
-[2020.09.03-05.36.48:732][  0]LogAIModule: Creating AISystem for world 遊戲場景
-[2020.09.03-05.36.48:747][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.09.03-05.36.48:779][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
-[2020.09.03-05.36.48:779][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.09.03-05.36.48:780][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.09ms to complete.
-[2020.09.03-05.36.48:780][  0]LogFileHelpers: Loading map '遊戲場景' took 0.472
-[2020.09.03-05.36.48:897][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.03-05.36.48:902][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.03-05.36.48:907][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.03-05.36.48:911][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.03-05.36.48:914][  0]LogCollectionManager: Loaded 0 collections in 0.000676 seconds
-[2020.09.03-05.36.48:923][  0]LogFileCache: Scanning file cache for directory 'D:/new_lizhen/new_lizhen/1/Saved/Collections/' took 0.00s
-[2020.09.03-05.36.48:923][  0]LogFileCache: Scanning file cache for directory 'D:/new_lizhen/new_lizhen/1/Content/Developers/IM/Collections/' took 0.00s
-[2020.09.03-05.36.48:923][  0]LogFileCache: Scanning file cache for directory 'D:/new_lizhen/new_lizhen/1/Content/Collections/' took 0.00s
-[2020.09.03-05.36.48:923][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 3015 classes and 717 folders.
-[2020.09.03-05.36.48:925][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.09.03-05.36.48:956][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.09.03-05.36.48:958][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
-[2020.09.03-05.36.49:002][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.09.03-05.36.49:004][  0]LogSlate: Took 0.001021 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2020.09.03-05.36.49:005][  0]LogSlate: Took 0.000080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.09.03-05.36.49:008][  0]LogSlate: Took 0.000074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.09.03-05.36.49:063][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2020.09.03-05.36.49:151][  0]LogSlate: Window 'Tutorials' being destroyed
-[2020.09.03-05.36.49:157][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.09.03-05.36.49:157][  0]LogLoad: (Engine Initialization) Total time: 5.71 seconds
-[2020.09.03-05.36.49:157][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.09.03-05.36.49:198][  0]LogAssetRegistry: Asset discovery search completed in 3.5861 seconds
-[2020.09.03-05.36.49:201][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
-[2020.09.03-05.36.49:202][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.09.03-05.36.49:248][  0]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.09.03-05.37.03:987][678]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.09.03-05.37.04:009][678]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/bp/BP_殭屍.BP_殭屍
-[2020.09.03-05.37.04:110][678]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
-[2020.09.03-05.37.04:747][678]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.09.03-05.37.04:816][679]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.09.03-05.39.51:120][394]BlueprintLog: New page: Compile BP_殭屍
-[2020.09.03-05.39.51:321][394]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
-[2020.09.03-05.39.51:890][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/BP_殭屍" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset" SILENT=true
-[2020.09.03-05.39.51:942][449]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/BP_殭屍0A5D333F466761BA29A926A53E8D6BAB.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset'
-[2020.09.03-05.39.51:953][449]AssetCheck: New page: Asset Save: BP_殭屍
-[2020.09.03-05.39.51:953][449]LogContentValidation: Display: Validating Blueprint /Game/bp/BP_殭屍.BP_殭屍
-[2020.09.03-05.39.53:445][625]BlueprintLog: New page: Compile BP_殭屍
-[2020.09.03-05.39.53:641][625]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
-[2020.09.03-05.39.54:155][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/BP_殭屍" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset" SILENT=true
-[2020.09.03-05.39.54:197][677]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/BP_殭屍41A9AF1242FBE89979C5618B6C5619F1.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset'
-[2020.09.03-05.39.54:208][677]AssetCheck: New page: Asset Save: BP_殭屍
-[2020.09.03-05.39.54:208][677]LogContentValidation: Display: Validating Blueprint /Game/bp/BP_殭屍.BP_殭屍
-[2020.09.03-05.39.56:376][904]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
-[2020.09.03-05.39.57:601][904]LogSlate: Window 'Save Content' being destroyed
-[2020.09.03-05.39.57:613][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.09.03-05.39.57:642][904]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
-[2020.09.03-05.39.57:681][904]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景F89D1BC447E5B28134FA46BB605EE39A.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
-[2020.09.03-05.39.57:704][904]LogFileHelpers: Saving map '遊戲場景' took 0.093
-[2020.09.03-05.39.57:715][904]AssetCheck: New page: Asset Save: 遊戲場景
-[2020.09.03-05.39.57:715][904]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
-[2020.09.03-05.41.36:332][615]BlueprintLog: New page: Compile BP_殭屍
-[2020.09.03-05.41.36:527][615]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
-[2020.09.03-05.41.36:858][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/BP_殭屍" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset" SILENT=true
-[2020.09.03-05.41.36:902][643]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/BP_殭屍AAEE3BD14D18FD5499C5DEA41D2C83FC.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset'
-[2020.09.03-05.41.36:912][643]AssetCheck: New page: Asset Save: BP_殭屍
-[2020.09.03-05.41.36:912][643]LogContentValidation: Display: Validating Blueprint /Game/bp/BP_殭屍.BP_殭屍
-[2020.09.03-05.41.39:086][872]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
-[2020.09.03-05.41.45:526][872]LogSlate: Window 'Save Content' being destroyed
-[2020.09.03-05.41.45:550][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.09.03-05.41.45:582][872]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
-[2020.09.03-05.41.45:620][872]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景23431D334B3C61741246CCB92C69D1E7.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
-[2020.09.03-05.41.45:644][872]LogFileHelpers: Saving map '遊戲場景' took 0.094
-[2020.09.03-05.41.45:653][872]AssetCheck: New page: Asset Save: 遊戲場景
-[2020.09.03-05.41.45:653][872]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
-[2020.09.03-05.41.47:453][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.09.03-05.41.47:481][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
-[2020.09.03-05.41.47:519][ 80]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景708EFE204E3C6A28F1DC3BB88FAF161E.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
-[2020.09.03-05.41.47:551][ 80]AssetCheck: New page: Asset Save: 遊戲場景
-[2020.09.03-05.41.47:551][ 80]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
-[2020.09.03-05.41.47:950][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.09.03-05.41.47:981][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
-[2020.09.03-05.41.48:018][126]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景4677E09947311CA68D2F498D7E53C3F8.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
-[2020.09.03-05.41.48:049][126]AssetCheck: New page: Asset Save: 遊戲場景
-[2020.09.03-05.41.48:049][126]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
-[2020.09.03-05.56.20:075][521]BlueprintLog: New page: Compile BP_殭屍
-[2020.09.03-05.56.20:273][521]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
-[2020.09.03-05.56.20:687][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/BP_殭屍" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset" SILENT=true
-[2020.09.03-05.56.20:736][563]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/BP_殭屍05D2CF7F46C33D4ADE61EB920FB110CB.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset'
-[2020.09.03-05.56.20:747][563]AssetCheck: New page: Asset Save: BP_殭屍
-[2020.09.03-05.56.20:747][563]LogContentValidation: Display: Validating Blueprint /Game/bp/BP_殭屍.BP_殭屍
-[2020.09.03-05.57.10:930][469]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
-[2020.09.03-05.57.10:930][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Saved/Autosaves/Game/Maps/地圖/遊戲場景_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2020.09.03-05.57.10:972][469]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景_Auto19008DB084204947724F6AF8482E1BF0E.tmp' to 'D:/new_lizhen/new_lizhen/1/Saved/Autosaves/Game/Maps/地圖/遊戲場景_Auto1.umap'
-[2020.09.03-05.57.10:973][469]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/地圖/遊戲場景' took 0.076
-[2020.09.03-05.57.10:973][469]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.076
-[2020.09.03-05.57.10:973][469]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/bp/BP_殭屍] ([1] browsable assets)...
-[2020.09.03-05.57.10:973][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/bp/BP_殭屍]
-[2020.09.03-05.57.10:973][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/BP_殭屍" FILE="D:/new_lizhen/new_lizhen/1/Saved/Autosaves/Game/bp/BP_殭屍_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2020.09.03-05.57.11:010][469]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/BP_殭屍_Auto187B297394C89E0A6C1546099669DA0A3.tmp' to 'D:/new_lizhen/new_lizhen/1/Saved/Autosaves/Game/bp/BP_殭屍_Auto1.uasset'
-[2020.09.03-05.57.11:010][469]LogFileHelpers: Auto-saving content packages took 0.038
-[2020.09.03-05.57.29:219][566]BlueprintLog: New page: Compile BP_殭屍
-[2020.09.03-05.57.29:416][566]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
-[2020.09.03-05.57.30:356][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/BP_殭屍" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset" SILENT=true
-[2020.09.03-05.57.30:398][670]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/BP_殭屍3A5F56EF47DAC8E83CEFD78765E59BAE.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset'
-[2020.09.03-05.57.30:411][670]AssetCheck: New page: Asset Save: BP_殭屍
-[2020.09.03-05.57.30:411][670]LogContentValidation: Display: Validating Blueprint /Game/bp/BP_殭屍.BP_殭屍
-[2020.09.03-05.59.52:475][373]BlueprintLog: New page: Compile BP_殭屍
-[2020.09.03-05.59.52:676][373]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
-[2020.09.03-05.59.53:261][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/BP_殭屍" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset" SILENT=true
-[2020.09.03-05.59.53:306][433]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/BP_殭屍2634EA9A45A688099CD6C0B60E24B925.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset'
-[2020.09.03-05.59.53:317][433]AssetCheck: New page: Asset Save: BP_殭屍
-[2020.09.03-05.59.53:318][433]LogContentValidation: Display: Validating Blueprint /Game/bp/BP_殭屍.BP_殭屍
-[2020.09.03-06.00.07:535][914]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/bp/bp_1.bp_1
-[2020.09.03-06.01.58:236][ 39]BlueprintLog: New page: Compile bp_1
-[2020.09.03-06.01.58:456][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
-[2020.09.03-06.01.58:730][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/bp_1" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/bp_1.uasset" SILENT=true
-[2020.09.03-06.01.58:800][ 63]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/bp_13DE3EEFF443EE338C1164199A0654385.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/bp_1.uasset'
-[2020.09.03-06.01.58:811][ 63]AssetCheck: New page: Asset Save: bp_1
-[2020.09.03-06.01.58:811][ 63]LogContentValidation: Display: Validating Blueprint /Game/bp/bp_1.bp_1
-[2020.09.03-06.07.13:280][653]BlueprintLog: New page: Compile BP_殭屍
-[2020.09.03-06.07.13:484][653]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
-[2020.09.03-06.07.13:791][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/BP_殭屍" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset" SILENT=true
-[2020.09.03-06.07.13:841][678]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/BP_殭屍2161908148321265B735D49097F4EE2D.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset'
-[2020.09.03-06.07.13:851][678]AssetCheck: New page: Asset Save: BP_殭屍
-[2020.09.03-06.07.13:851][678]LogContentValidation: Display: Validating Blueprint /Game/bp/BP_殭屍.BP_殭屍
-[2020.09.03-06.07.42:089][ 38]BlueprintLog: New page: Compile bp_1
-[2020.09.03-06.07.42:310][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
-[2020.09.03-06.07.42:575][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/bp_1" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/bp_1.uasset" SILENT=true
-[2020.09.03-06.07.42:644][ 61]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/bp_1B62D6477444C954A4D7786B04F1385B6.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/bp_1.uasset'
-[2020.09.03-06.07.42:701][ 61]AssetCheck: New page: Asset Save: bp_1
-[2020.09.03-06.07.42:701][ 61]LogContentValidation: Display: Validating Blueprint /Game/bp/bp_1.bp_1
-[2020.09.03-06.08.30:989][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
-[2020.09.03-06.08.30:989][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Saved/Autosaves/Game/Maps/地圖/遊戲場景_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2020.09.03-06.08.31:033][745]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景_Auto21AA64B8044D61BAE91351C96EA91C8A7.tmp' to 'D:/new_lizhen/new_lizhen/1/Saved/Autosaves/Game/Maps/地圖/遊戲場景_Auto2.umap'
-[2020.09.03-06.08.31:034][745]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/地圖/遊戲場景' took 0.079
-[2020.09.03-06.08.31:034][745]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.079
-[2020.09.03-06.08.31:034][745]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/bp/BP_殭屍] ([1] browsable assets)...
-[2020.09.03-06.08.31:044][745]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/bp/BP_殭屍.BP_殭屍]
-[2020.09.03-06.08.31:044][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/bp/BP_殭屍]
-[2020.09.03-06.08.31:044][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/BP_殭屍" FILE="D:/new_lizhen/new_lizhen/1/Saved/Autosaves/Game/bp/BP_殭屍_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2020.09.03-06.08.31:087][745]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/BP_殭屍_Auto2D80D3B45461CA69BC7488DB2B645FDBA.tmp' to 'D:/new_lizhen/new_lizhen/1/Saved/Autosaves/Game/bp/BP_殭屍_Auto2.uasset'
-[2020.09.03-06.08.31:087][745]LogFileHelpers: Auto-saving content packages took 0.053
-[2020.09.03-06.12.57:734][727]BlueprintLog: New page: Compile BP_殭屍
-[2020.09.03-06.12.57:932][727]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
-[2020.09.03-06.12.58:269][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/BP_殭屍" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset" SILENT=true
-[2020.09.03-06.12.58:318][757]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/BP_殭屍A6DA9592462260E9365907B34358451E.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset'
-[2020.09.03-06.12.58:330][757]AssetCheck: New page: Asset Save: BP_殭屍
-[2020.09.03-06.12.58:330][757]LogContentValidation: Display: Validating Blueprint /Game/bp/BP_殭屍.BP_殭屍
-[2020.09.03-06.12.59:491][887]BlueprintLog: New page: Compile bp_1
-[2020.09.03-06.12.59:711][887]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
-[2020.09.03-06.12.59:969][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/bp_1" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/bp_1.uasset" SILENT=true
-[2020.09.03-06.13.00:039][908]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/bp_179B5EDC14D0F5869BD795FA4C34EBEF7.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/bp_1.uasset'
-[2020.09.03-06.13.00:049][908]AssetCheck: New page: Asset Save: bp_1
-[2020.09.03-06.13.00:049][908]LogContentValidation: Display: Validating Blueprint /Game/bp/bp_1.bp_1
-[2020.09.03-06.13.01:443][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.09.03-06.13.01:479][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
-[2020.09.03-06.13.01:514][ 67]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景706449664AE19DB8C141D186221137E8.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
-[2020.09.03-06.13.01:546][ 67]AssetCheck: New page: Asset Save: 遊戲場景
-[2020.09.03-06.13.01:546][ 67]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
-[2020.09.03-06.13.01:993][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.09.03-06.13.02:026][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
-[2020.09.03-06.13.02:065][119]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景C75014CB4F5D111FB9B61C98DCA73E01.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
-[2020.09.03-06.13.02:096][119]AssetCheck: New page: Asset Save: 遊戲場景
-[2020.09.03-06.13.02:096][119]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
-[2020.09.03-06.13.03:879][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
-[2020.09.03-06.13.06:080][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
-[2020.09.03-06.13.06:131][524]LogSlate: Window 'MyProject2 - Unreal Editor' being destroyed
-[2020.09.03-06.13.06:133][524]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微軟注音).
-[2020.09.03-06.13.06:170][524]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2020.09.03-06.13.06:170][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.03-06.13.06:218][524]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2020.09.03-06.13.06:218][524]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
-[2020.09.03-06.13.06:218][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.03-06.13.06:298][525]Cmd: QUIT_EDITOR
-[2020.09.03-06.13.06:298][525]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
-[2020.09.03-06.13.06:304][525]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2020.09.03-06.13.06:304][525]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.09.03-06.13.06:315][525]LogExit: Preparing to exit.
-[2020.09.03-06.13.07:140][525]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2020.09.03-06.13.07:142][525]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2020.09.03-06.13.07:144][525]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2020.09.03-06.13.07:145][525]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2020.09.03-06.13.07:146][525]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2020.09.03-06.13.07:148][525]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2020.09.03-06.13.07:186][525]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
-[2020.09.03-06.13.07:186][525]LogExit: Editor shut down
-[2020.09.03-06.13.07:186][525]LogExit: Transaction tracking system shut down
-[2020.09.03-06.13.07:187][525]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2020.09.03-06.13.07:393][525]LogExit: Object subsystem successfully closed.
-[2020.09.03-06.13.07:415][525]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module BlueprintGraph (698)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (696)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module SceneOutliner (694)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module AddContentDialog (692)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module WidgetCarousel (691)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module EditorWidgets (688)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module CollectionManager (686)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module StatsViewer (684)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (682)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module FoliageEdit (680)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module LandscapeEditor (678)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module MeshPaintMode (676)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (674)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module ActorPickerMode (672)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module GeometryMode (670)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module TextureAlignMode (668)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module BspMode (666)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (664)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (662)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module AutomationWorker (660)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module SteamVREditor (658)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module OculusMR (656)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (654)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (652)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (650)
-[2020.09.03-06.13.07:432][525]LogModuleManager: Shutting down and abandoning module PlacementMode (649)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module MaterialEditor (648)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (644)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (642)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (640)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (638)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (636)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module WebMMedia (634)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (632)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (630)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module SequenceRecorder (629)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (626)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (624)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (622)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (620)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (618)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (616)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (614)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (612)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (610)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (608)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module CharacterAI (606)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module SmartSnapping (604)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module SessionServices (602)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module MeshPaint (600)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module ViewportSnapping (598)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module ViewportInteraction (596)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module ClothPainter (594)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (593)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module LogVisualizer (590)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module IntroTutorials (588)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (587)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (584)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (582)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (580)
-[2020.09.03-06.13.07:433][525]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (579)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (576)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (574)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (572)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (570)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (568)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (566)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module InputBindingEditor (564)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module MergeActors (562)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (560)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module LocalizationService (559)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module HardwareTargeting (556)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (554)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module UndoHistory (552)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module XmlParser (550)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module Blutility (548)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (546)
-[2020.09.03-06.13.07:831][525]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (545)
-[2020.09.03-06.13.07:832][525]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (542)
-[2020.09.03-06.13.07:832][525]LogModuleManager: Shutting down and abandoning module SettingsEditor (540)
-[2020.09.03-06.13.07:832][525]LogModuleManager: Shutting down and abandoning module ProjectLauncher (538)
-[2020.09.03-06.13.07:832][525]LogModuleManager: Shutting down and abandoning module SessionFrontend (536)
-[2020.09.03-06.13.07:832][525]LogModuleManager: Shutting down and abandoning module ProfilerClient (534)
-[2020.09.03-06.13.07:832][525]LogModuleManager: Shutting down and abandoning module DeviceManager (532)
-[2020.09.03-06.13.07:832][525]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (531)
-[2020.09.03-06.13.07:863][525]LogModuleManager: Shutting down and abandoning module AutomationController (528)
-[2020.09.03-06.13.07:863][525]LogModuleManager: Shutting down and abandoning module AutomationWindow (526)
-[2020.09.03-06.13.07:863][525]LogModuleManager: Shutting down and abandoning module Layers (524)
-[2020.09.03-06.13.07:863][525]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (522)
-[2020.09.03-06.13.07:863][525]LogModuleManager: Shutting down and abandoning module DetailCustomizations (520)
-[2020.09.03-06.13.07:863][525]LogModuleManager: Shutting down and abandoning module PackagesDialog (518)
-[2020.09.03-06.13.07:863][525]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (516)
-[2020.09.03-06.13.07:863][525]LogModuleManager: Shutting down and abandoning module Persona (514)
-[2020.09.03-06.13.07:863][525]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (513)
-[2020.09.03-06.13.07:863][525]LogModuleManager: Shutting down and abandoning module AnimGraph (511)
-[2020.09.03-06.13.07:863][525]LogModuleManager: Shutting down and abandoning module Kismet (508)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module KismetWidgets (507)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module GraphEditor (504)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module StructViewer (502)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module ClassViewer (500)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module Toolbox (498)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module ModuleUI (496)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module OutputLog (494)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module GammaUI (492)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module Documentation (490)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module ToolMenus (488)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module LiveCoding (486)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module LevelSequence (484)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (482)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module MovieScene (480)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (478)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module LauncherPlatform (476)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module AnalyticsET (474)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module PortalServices (472)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module PortalRpc (470)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module MessagingRpc (468)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (466)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module AIModule (464)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module GameplayDebugger (463)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module AITestSuite (461)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module NavigationSystem (459)
-[2020.09.03-06.13.07:866][525]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (456)
-[2020.09.03-06.13.07:870][525]LogModuleManager: Shutting down and abandoning module ProfilerService (454)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module TaskGraph (452)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module ScreenshotTools (450)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (448)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (446)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module OculusEditor (444)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module OculusInput (442)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (440)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module EditableMesh (438)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (436)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module CableComponent (434)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module AudioCapture (432)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (431)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module AssetTags (428)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (426)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (424)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module AppleImageUtils (422)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module AndroidPermission (420)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (418)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (416)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module MediaCompositing (414)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module ImgMedia (412)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (410)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (408)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (406)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (404)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (402)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module BackChannel (400)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (398)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module AutomationUtils (396)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module AlembicImporter (394)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module AlembicLibrary (393)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module GeometryCache (392)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (391)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (386)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (384)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (382)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module PluginBrowser (380)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (378)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (376)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module CurveEditorTools (374)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (372)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module CryptoKeys (370)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (368)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (366)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module UObjectPlugin (364)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (362)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (360)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (358)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module GitSourceControl (356)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module SourceControl (355)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (352)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (350)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (348)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (346)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (344)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (342)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (340)
-[2020.09.03-06.13.08:038][525]LogModuleManager: Shutting down and abandoning module Paper2DEditor (338)
-[2020.09.03-06.13.08:039][525]LogModuleManager: Shutting down and abandoning module SignificanceManager (336)
-[2020.09.03-06.13.08:039][525]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (334)
-[2020.09.03-06.13.08:039][525]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (332)
-[2020.09.03-06.13.08:039][525]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (328)
-[2020.09.03-06.13.08:039][525]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
-[2020.09.03-06.13.08:039][525]LogModuleManager: Shutting down and abandoning module UdpMessaging (324)
-[2020.09.03-06.13.08:140][525]LogModuleManager: Shutting down and abandoning module TcpMessaging (322)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (320)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (318)
-[2020.09.03-06.13.08:240][525]LogMagicLeapPlanes: Planes tracker already destroyed.
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (316)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (314)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (312)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (310)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (308)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (306)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module MagicLeapController (304)
-[2020.09.03-06.13.08:240][525]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (302)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module MagicLeapAR (300)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module AugmentedReality (299)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (296)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (294)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module FacialAnimation (292)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module DataValidation (290)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (288)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module LevelEditor (287)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (286)
-[2020.09.03-06.13.08:240][525]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (284)
-[2020.09.03-06.13.08:241][525]LogModuleManager: Shutting down and abandoning module MainFrame (282)
-[2020.09.03-06.13.08:241][525]LogModuleManager: Shutting down and abandoning module HotReload (281)
-[2020.09.03-06.13.08:241][525]LogModuleManager: Shutting down and abandoning module ContentBrowser (277)
-[2020.09.03-06.13.08:241][525]LogModuleManager: Shutting down and abandoning module TreeMap (275)
-[2020.09.03-06.13.08:241][525]LogModuleManager: Shutting down and abandoning module AnimationSharing (272)
-[2020.09.03-06.13.08:241][525]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (270)
-[2020.09.03-06.13.08:241][525]LogModuleManager: Shutting down and abandoning module Paper2D (268)
-[2020.09.03-06.13.08:241][525]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (266)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (264)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (262)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module PacketHandler (260)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (258)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (256)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module MediaAssets (254)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module Overlay (252)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module OverlayEditor (251)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module VREditor (248)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module StringTableEditor (246)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (244)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (242)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module FunctionalTesting (240)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (238)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (237)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module UMG (234)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module UMGEditor (233)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module MessageLog (231)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module SlateReflector (226)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module Slate (224)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module SlateCore (222)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (220)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module UnrealEd (218)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module MRMesh (216)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (214)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (212)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module XAudio2 (210)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module Networking (208)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module Core (206)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module MovieSceneTools (204)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module CurveEditor (203)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module Sequencer (201)
-[2020.09.03-06.13.08:242][525]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module KismetCompiler (196)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module MeshUtilities (194)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (193)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (192)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (191)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (189)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (187)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (185)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module MaterialBaking (181)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (176)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module DerivedDataCache (174)
-[2020.09.03-06.13.08:243][525]LogDerivedDataCache: Shutdown
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module XGEController (172)
-[2020.09.03-06.13.08:243][525]LogXGEController: Cleaning working directory: C:/Users/IM/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (157)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
-[2020.09.03-06.13.08:243][525]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
-[2020.09.03-06.13.08:244][525]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
-[2020.09.03-06.13.08:244][525]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
-[2020.09.03-06.13.08:244][525]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (147)
-[2020.09.03-06.13.08:244][525]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (145)
-[2020.09.03-06.13.08:244][525]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (143)
-[2020.09.03-06.13.08:244][525]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (141)
-[2020.09.03-06.13.08:244][525]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (139)
-[2020.09.03-06.13.08:244][525]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (137)
-[2020.09.03-06.13.08:244][525]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (135)
-[2020.09.03-06.13.08:244][525]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (133)
-[2020.09.03-06.13.08:244][525]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (131)
-[2020.09.03-06.13.08:244][525]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
-[2020.09.03-06.13.08:245][525]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (127)
-[2020.09.03-06.13.08:245][525]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (125)
-[2020.09.03-06.13.08:245][525]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (123)
-[2020.09.03-06.13.08:245][525]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
-[2020.09.03-06.13.08:245][525]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2020.09.03-06.13.08:245][525]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
-[2020.09.03-06.13.08:245][525]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2020.09.03-06.13.08:245][525]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2020.09.03-06.13.08:245][525]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
-[2020.09.03-06.13.08:249][525]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (109)
-[2020.09.03-06.13.08:249][525]LogModuleManager: Shutting down and abandoning module InputCore (106)
-[2020.09.03-06.13.08:249][525]LogModuleManager: Shutting down and abandoning module Settings (104)
-[2020.09.03-06.13.08:249][525]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
-[2020.09.03-06.13.08:250][525]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
-[2020.09.03-06.13.08:250][525]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
-[2020.09.03-06.13.08:250][525]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
-[2020.09.03-06.13.08:250][525]LogModuleManager: Shutting down and abandoning module Chaos (94)
-[2020.09.03-06.13.08:250][525]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
-[2020.09.03-06.13.08:250][525]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
-[2020.09.03-06.13.08:250][525]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (88)
-[2020.09.03-06.13.08:250][525]LogModuleManager: Shutting down and abandoning module SteamVRInput (86)
-[2020.09.03-06.13.08:250][525]LogModuleManager: Shutting down and abandoning module SteamVR (84)
-[2020.09.03-06.13.08:250][525]LogHMD: Freeing OpenVRDLLHandle.
-[2020.09.03-06.13.08:250][525]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
-[2020.09.03-06.13.08:250][525]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
-[2020.09.03-06.13.08:250][525]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
-[2020.09.03-06.13.08:250][525]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
-[2020.09.03-06.13.08:250][525]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
-[2020.09.03-06.13.08:251][525]LogModuleManager: Shutting down and abandoning module XMPP (67)
-[2020.09.03-06.13.08:251][525]LogModuleManager: Shutting down and abandoning module WebSockets (66)
-[2020.09.03-06.13.08:276][525]LogModuleManager: Shutting down and abandoning module HTTP (63)
-[2020.09.03-06.13.08:276][525]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2020.09.03-06.13.08:276][525]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B32BB08CB-4103-8CD0-8279-A6A55F1F234B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=a0119c19464f79832512e4a0f7d829a7%7C9f99774a4a044a2fae4b2e6f968319a6%7C3bc869e1-6495-4be4-8411-49717fca9374&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
-[2020.09.03-06.13.08:299][525]LogModuleManager: Shutting down and abandoning module SSL (62)
-[2020.09.03-06.13.08:300][525]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
-[2020.09.03-06.13.08:302][525]LogModuleManager: Shutting down and abandoning module Media (57)
-[2020.09.03-06.13.08:302][525]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
-[2020.09.03-06.13.08:302][525]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
-[2020.09.03-06.13.08:302][525]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
-[2020.09.03-06.13.08:302][525]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
-[2020.09.03-06.13.08:302][525]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
-[2020.09.03-06.13.08:302][525]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
-[2020.09.03-06.13.08:302][525]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
-[2020.09.03-06.13.08:302][525]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2020.09.03-06.13.08:303][525]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2020.09.03-06.13.08:303][525]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2020.09.03-06.13.08:303][525]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2020.09.03-06.13.08:303][525]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2020.09.03-06.13.08:303][525]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2020.09.03-06.13.08:303][525]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2020.09.03-06.13.08:303][525]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2020.09.03-06.13.08:304][525]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2020.09.03-06.13.08:304][525]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2020.09.03-06.13.08:304][525]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2020.09.03-06.13.08:304][525]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2020.09.03-06.13.08:304][525]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2020.09.03-06.13.08:304][525]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2020.09.03-06.13.08:304][525]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2020.09.03-06.13.08:304][525]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2020.09.03-06.13.08:304][525]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2020.09.03-06.13.08:304][525]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2020.09.03-06.13.08:304][525]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2020.09.03-06.13.08:304][525]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2020.09.03-06.13.08:305][525]LogD3D11RHI: Shutdown
-[2020.09.03-06.13.08:305][525]LogD3D11RHI: CleanupD3DDevice
-[2020.09.03-06.13.08:316][525]LogExit: Exiting.
-[2020.09.03-06.13.08:326][525]Log file closed, 09/03/20 14:13:08
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Engine.ini]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Engine.ini]
+[2020.09.03-06.14.11:354][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Engine.ini]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Engine.ini]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.03-06.14.11:354][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Engine.ini]
+[2020.09.03-06.14.11:354][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Engine.ini]
+[2020.09.03-06.14.11:356][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.03-06.14.11:356][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.03-06.14.11:357][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.03-06.14.11:357][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.03-06.14.11:357][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.03-06.14.11:359][  0]LogHAL: Display: Platform has ~ 16 GB [17048686592 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.03-06.14.11:359][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.03-06.14.11:359][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.03-06.14.11:359][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Scalability.ini]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.03-06.14.11:360][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.03-06.14.11:361][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.03-06.14.11:361][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.03-06.14.11:361][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/new_lizhen/new_lizhen/1/Saved/Config/Windows/Engine.ini]
+[2020.09.03-06.14.11:361][  0]LogInit: Computer: M514-053
+[2020.09.03-06.14.11:361][  0]LogInit: User: IM
+[2020.09.03-06.14.11:361][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.09.03-06.14.11:361][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.03-06.14.11:361][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.09.03-06.14.11:361][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.03-06.14.11:361][  0]LogMemory: Process Physical Memory: 105.77 MB used, 105.78 MB peak
+[2020.09.03-06.14.11:361][  0]LogMemory: Process Virtual Memory: 101.43 MB used, 101.43 MB peak
+[2020.09.03-06.14.11:361][  0]LogMemory: Physical Memory: 2748.40 MB used,  13510.49 MB free, 16258.89 MB total
+[2020.09.03-06.14.11:361][  0]LogMemory: Virtual Memory: 5159.34 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.09.03-06.14.11:362][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.03-06.14.11:372][  0]LogInit: Using OS detected language (zh-TW).
+[2020.09.03-06.14.11:372][  0]LogInit: Using OS detected locale (zh-TW).
+[2020.09.03-06.14.11:372][  0]LogTextLocalizationManager: No localization for 'zh-TW' exists, so 'en' will be used for the language.
+[2020.09.03-06.14.11:486][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.03-06.14.11:521][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.03-06.14.11:521][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.03-06.14.11:634][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.03-06.14.11:634][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.03-06.14.11:634][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.03-06.14.11:634][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.03-06.14.11:678][  0]LogD3D11RHI:    0. 'NVIDIA Quadro P1000' (Feature Level 11_0)
+[2020.09.03-06.14.11:678][  0]LogD3D11RHI:       4019/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.03-06.14.11:680][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.03-06.14.11:680][  0]LogD3D11RHI:       0/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.03-06.14.11:680][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.03-06.14.11:684][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.03-06.14.11:684][  0]LogD3D11RHI:     GPU DeviceId: 0x1cb1 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.03-06.14.11:684][  0]LogWindows: EnumDisplayDevices:
+[2020.09.03-06.14.11:684][  0]LogWindows:    0. 'NVIDIA Quadro P1000' (P:1 D:1)
+[2020.09.03-06.14.11:685][  0]LogWindows:    1. 'NVIDIA Quadro P1000' (P:0 D:0)
+[2020.09.03-06.14.11:685][  0]LogWindows:    2. 'NVIDIA Quadro P1000' (P:0 D:0)
+[2020.09.03-06.14.11:685][  0]LogWindows:    3. 'NVIDIA Quadro P1000' (P:0 D:0)
+[2020.09.03-06.14.11:685][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.09.03-06.14.11:685][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro P1000
+[2020.09.03-06.14.11:685][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
+[2020.09.03-06.14.11:685][  0]LogD3D11RHI:      Driver Date: 5-22-2019
+[2020.09.03-06.14.11:685][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
+[2020.09.03-06.14.11:715][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.03-06.14.11:715][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.03-06.14.11:725][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.03-06.14.11:939][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.03-06.14.11:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.03-06.14.11:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.03-06.14.11:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.03-06.14.11:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.03-06.14.11:976][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.03-06.14.11:976][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.03-06.14.11:981][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.03-06.14.11:987][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.03-06.14.11:992][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.03-06.14.11:998][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.03-06.14.12:003][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.03-06.14.12:009][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.03-06.14.12:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.03-06.14.12:027][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.03-06.14.12:036][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.03-06.14.12:036][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.03-06.14.12:041][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.03-06.14.12:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.03-06.14.12:052][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.03-06.14.12:057][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.03-06.14.12:057][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.03-06.14.12:059][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.03-06.14.12:075][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (D:/new_lizhen/new_lizhen/1/Intermediate/Shaders/WorkingDirectory/7836/).
+[2020.09.03-06.14.12:075][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/IM/AppData/Local/Temp/UnrealShaderWorkingDir/14B3D49843A4A94FAE901A92213B2EDC/'.
+[2020.09.03-06.14.12:075][  0]LogXGEController: Cleaning working directory: C:/Users/IM/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.03-06.14.12:075][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.03-06.14.12:075][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.03-06.14.12:075][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.03-06.14.12:616][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.03-06.14.12:657][  0]LogDerivedDataCache: Loaded boot cache 0.04s 79MB C:/Users/IM/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.09.03-06.14.12:657][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/IM/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.09.03-06.14.12:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/new_lizhen/new_lizhen/1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.03-06.14.12:657][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.03-06.14.12:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/new_lizhen/new_lizhen/1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.03-06.14.12:657][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.03-06.14.12:665][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.03-06.14.12:665][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.03-06.14.12:665][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.03-06.14.12:666][  0]LogDerivedDataCache: Using Local data cache path C:/Users/IM/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.03-06.14.12:666][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.03-06.14.12:666][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.03-06.14.12:685][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.09.03-06.14.12:687][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.03-06.14.12:688][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.03-06.14.12:724][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
+[2020.09.03-06.14.12:937][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.03-06.14.13:052][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.03-06.14.13:052][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.03-06.14.13:052][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.03-06.14.13:052][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.03-06.14.13:052][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.03-06.14.13:060][  0]LogNetVersion: MyProject2 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 813727915)
+[2020.09.03-06.14.13:784][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.023868 seconds
+[2020.09.03-06.14.13:790][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.09.03-06.14.13:790][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.09.03-06.14.13:790][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.03-06.14.14:064][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.03-06.14.14:066][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.03-06.14.14:098][  0]SourceControl: Source control is disabled
+[2020.09.03-06.14.14:098][  0]SourceControl: Source control is disabled
+[2020.09.03-06.14.14:098][  0]SourceControl: Source control is disabled
+[2020.09.03-06.14.14:099][  0]SourceControl: Source control is disabled
+[2020.09.03-06.14.14:099][  0]SourceControl: Source control is disabled
+[2020.09.03-06.14.14:150][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.03-06.14.14:156][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.03-06.14.14:157][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.03-06.14.14:217][  0]LogOcInput: OculusInput pre-init called
+[2020.09.03-06.14.14:222][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.03-06.14.14:222][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.03-06.14.14:275][  0]LogEngine: Initializing Engine...
+[2020.09.03-06.14.14:275][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.03-06.14.14:276][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.03-06.14.14:548][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.03-06.14.14:553][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.03-06.14.14:558][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.03-06.14.14:558][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.03-06.14.14:558][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.03-06.14.14:558][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.03-06.14.14:558][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.03-06.14.14:558][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.03-06.14.14:558][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.03-06.14.14:559][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.03-06.14.14:559][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.03-06.14.14:559][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.03-06.14.14:562][  0]LogAudioMixer: Display: Using Audio Device Unknown
+[2020.09.03-06.14.14:566][  0]LogInit: FAudioDevice initialized.
+[2020.09.03-06.14.14:566][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.03-06.14.14:870][  0]LogDerivedDataCache: Saved boot cache 0.30s 78MB C:/Users/IM/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.09.03-06.14.14:873][  0]LogInit: Texture streaming: Enabled
+[2020.09.03-06.14.14:880][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.03-06.14.14:880][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.03-06.14.14:881][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.03-06.14.14:918][  0]LogInit: Transaction tracking system initialized
+[2020.09.03-06.14.14:924][  0]BlueprintLog: New page: Editor Load
+[2020.09.03-06.14.14:942][  0]LocalizationService: Localization service is disabled
+[2020.09.03-06.14.15:130][  0]LogFileCache: Scanning file cache for directory 'D:/new_lizhen/new_lizhen/1/Content/' took 0.00s
+[2020.09.03-06.14.15:130][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.03-06.14.15:130][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.03-06.14.15:588][  0]SourceControl: Source control is disabled
+[2020.09.03-06.14.15:588][  0]Cmd: MAP LOAD FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.03-06.14.15:588][  0]LightingResults: New page: Lighting Build
+[2020.09.03-06.14.15:588][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-06.14.15:588][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.14.15:588][  0]MapCheck: New page: Map Check
+[2020.09.03-06.14.15:589][  0]LightingResults: New page: Lighting Build
+[2020.09.03-06.14.15:613][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.09.03-06.14.16:016][  0]LogAIModule: Creating AISystem for world 遊戲場景
+[2020.09.03-06.14.16:031][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.03-06.14.16:061][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.09.03-06.14.16:062][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.03-06.14.16:062][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.097ms to complete.
+[2020.09.03-06.14.16:062][  0]LogFileHelpers: Loading map '遊戲場景' took 0.474
+[2020.09.03-06.14.16:187][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.14.16:192][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.14.16:197][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.14.16:201][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.14.16:204][  0]LogCollectionManager: Loaded 0 collections in 0.000664 seconds
+[2020.09.03-06.14.16:213][  0]LogFileCache: Scanning file cache for directory 'D:/new_lizhen/new_lizhen/1/Saved/Collections/' took 0.00s
+[2020.09.03-06.14.16:213][  0]LogFileCache: Scanning file cache for directory 'D:/new_lizhen/new_lizhen/1/Content/Developers/IM/Collections/' took 0.00s
+[2020.09.03-06.14.16:213][  0]LogFileCache: Scanning file cache for directory 'D:/new_lizhen/new_lizhen/1/Content/Collections/' took 0.00s
+[2020.09.03-06.14.16:213][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 3015 classes and 717 folders.
+[2020.09.03-06.14.16:215][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.03-06.14.16:249][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.03-06.14.16:251][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2020.09.03-06.14.16:291][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.03-06.14.16:292][  0]LogSlate: Took 0.001104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.09.03-06.14.16:293][  0]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.03-06.14.16:296][  0]LogSlate: Took 0.000075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.03-06.14.16:351][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.09.03-06.14.16:451][  0]LogSlate: Window 'Tutorials' being destroyed
+[2020.09.03-06.14.16:457][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.03-06.14.16:457][  0]LogLoad: (Engine Initialization) Total time: 5.91 seconds
+[2020.09.03-06.14.16:457][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.03-06.14.16:503][  0]LogAssetRegistry: Asset discovery search completed in 3.7797 seconds
+[2020.09.03-06.14.16:506][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2020.09.03-06.14.16:507][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.03-06.14.16:533][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.03-06.28.35:687][972]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.03-06.28.35:706][972]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/bp/bp_1.bp_1
+[2020.09.03-06.28.35:808][972]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2020.09.03-06.28.36:446][972]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.03-06.28.36:493][973]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.03-06.28.49:681][484]BlueprintLog: New page: Compile bp_1
+[2020.09.03-06.28.49:900][484]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.09.03-06.28.50:166][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/bp_1" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/bp_1.uasset" SILENT=true
+[2020.09.03-06.28.50:241][494]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/bp_1D4F9FAB64ABA184D64661297C2537F05.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/bp_1.uasset'
+[2020.09.03-06.28.50:254][494]AssetCheck: New page: Asset Save: bp_1
+[2020.09.03-06.28.50:254][494]LogContentValidation: Display: Validating Blueprint /Game/bp/bp_1.bp_1
+[2020.09.03-06.28.51:558][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.03-06.28.51:585][644]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.09.03-06.28.51:623][644]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景3CCD5DA642D53F4C8B0529B3AF974A1A.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.03-06.28.51:656][644]AssetCheck: New page: Asset Save: 遊戲場景
+[2020.09.03-06.28.51:656][644]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.03-06.28.55:324][ 65]MapCheck: New page: Map Check
+[2020.09.03-06.28.55:337][ 65]LightingResults: New page: Lighting Build - 2020年9月3日 下午10:28:55
+[2020.09.03-06.28.55:769][ 65]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.09.03-06.28.55:996][ 65]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.09.03-06.28.56:086][ 65]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.09.03-06.28.58:760][ 65]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.09.03-06.28.58:760][ 65]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7836
+[2020.09.03-06.29.05:669][ 65]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.09.03-06.29.05:669][ 65]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.09.03-06.29.05:669][ 65]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.09.03-06.29.05:670][ 65]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.09.03-06.29.05:670][ 65]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.09.03-06.29.05:670][ 65]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.09.03-06.29.05:784][ 65]LogEditorBuildUtils: Build time 0:10
+[2020.09.03-06.29.05:794][ 65]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_BrickFloor_Clean_Inst, compiling. 
+[2020.09.03-06.29.05:810][ 65]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.09.03-06.29.05:810][ 65]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.09.03-06.29.05:810][ 65]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_BrickFloor_Clean_Inst, compiling. 
+[2020.09.03-06.29.05:854][ 66]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.09.03-06.29.05:854][ 66]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.09.03-06.29.05:863][ 66]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_StoneWall_Inst, compiling. 
+[2020.09.03-06.29.05:876][ 66]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.09.03-06.29.05:876][ 66]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.09.03-06.29.05:876][ 66]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_StoneWall_Inst, compiling. 
+[2020.09.03-06.29.05:885][ 66]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.09.03-06.29.05:885][ 66]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.09.03-06.29.05:933][ 67]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Edge_Stones_Inst, compiling. 
+[2020.09.03-06.29.05:949][ 67]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Edge_Stones_Inst, compiling. 
+[2020.09.03-06.29.06:002][ 68]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Pillar_Inst, compiling. 
+[2020.09.03-06.29.06:017][ 68]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Pillar_Inst, compiling. 
+[2020.09.03-06.29.06:071][ 69]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Doorway_Large_Right_Door_Inst, compiling. 
+[2020.09.03-06.29.06:083][ 69]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Doorway_Large_Right_Door_Inst, compiling. 
+[2020.09.03-06.29.06:137][ 70]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Door_Hardware_Inst, compiling. 
+[2020.09.03-06.29.06:152][ 70]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Door_Hardware_Inst, compiling. 
+[2020.09.03-06.29.06:189][ 70]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 16
+[2020.09.03-06.29.06:203][ 71]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Large_Window_Half_Inst, compiling. 
+[2020.09.03-06.29.06:218][ 71]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Large_Window_Half_Inst, compiling. 
+[2020.09.03-06.29.06:242][ 72]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 17
+[2020.09.03-06.29.06:242][ 72]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2020.09.03-06.29.06:262][ 72]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 16
+[2020.09.03-06.29.06:262][ 72]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2020.09.03-06.29.06:283][ 73]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 15
+[2020.09.03-06.29.07:388][ 74]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 13
+[2020.09.03-06.29.07:388][ 74]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2020.09.03-06.29.07:388][ 74]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 9
+[2020.09.03-06.29.07:388][ 74]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2020.09.03-06.29.07:388][ 74]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.09.03-06.29.07:388][ 74]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.09.03-06.29.07:388][ 74]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.03-06.29.07:388][ 74]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.09.03-06.29.07:388][ 74]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.09.03-06.29.07:388][ 74]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2020.09.03-06.29.07:596][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.09.03-06.29.10:935][227]LogStaticLightingSystem: Warning: Failed to build lighting!!! Lighting build canceled.
+[2020.09.03-06.29.11:674][227]Job has failed! Job is closed while Tasks are still PENDING
+[2020.09.03-06.29.11:675][227]DumpUnbuiltLightIteractions
+[2020.09.03-06.29.11:675][227]Lights with unbuilt interactions: 1
+[2020.09.03-06.29.11:675][227]    Light PointLight_1
+[2020.09.03-06.29.11:675][227]
+[2020.09.03-06.29.11:675][227]Primitives with unbuilt interactions: 38
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Wall_107.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Wall8.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Wall7.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Wall6.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Wall5.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Wall30_232.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Wall3.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Wall27_222.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Wall26.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Wall25_217.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Wall24.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Wall23_207.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Wall2.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Pillar_179.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Pillar6.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Pillar5.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Pillar4.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Pillar3.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Pillar2.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Floor_7.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Floor9.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Floor8.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Floor7.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Floor6.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Floor5.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Floor4_61.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Floor3.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Floor2.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Doorway_204.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Ceiling_144.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Ceiling9.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Ceiling4.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Ceiling3.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Ceiling2.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Ceiling13.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Ceiling12.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Ceiling11.StaticMeshComponent0
+[2020.09.03-06.29.11:675][227]    Primitive StaticMeshComponent /Game/Maps/地圖/遊戲場景.遊戲場景:PersistentLevel.SM_Crypt_Ceiling10.StaticMeshComponent0
+[2020.09.03-06.29.11:753][228]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.09.03-06.29.11:754][228]MapCheck: New page: 遊戲場景 - 2020年9月3日 下午10:29:11
+[2020.09.03-06.29.11:754][228]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2020.09.03-06.29.11:754][228]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 0.779ms to complete.
+[2020.09.03-06.29.14:529][506]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.03-06.29.14:544][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.03-06.29.14:544][506]PIE: New page: PIE session: 遊戲場景 (2020年9月3日 下午10:29:14)
+[2020.09.03-06.29.14:545][506]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.09.03-06.29.14:546][506]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.09.03-06.29.14:546][506]LogPlayLevel: Creating play world package: /Game/Maps/地圖/UEDPIE_0_遊戲場景
+[2020.09.03-06.29.14:552][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005499s)
+[2020.09.03-06.29.14:552][506]LogAIModule: Creating AISystem for world 遊戲場景
+[2020.09.03-06.29.14:552][506]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2020.09.03-06.29.14:552][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/地圖/遊戲場景.遊戲場景 to /Game/Maps/地圖/UEDPIE_0_遊戲場景.遊戲場景 (0.006364s)
+[2020.09.03-06.29.14:583][506]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.09.03-06.29.14:584][506]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.03-06.29.14:584][506]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.03-06.29.14:584][506]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.03-06.29.14:584][506]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.03-06.29.14:584][506]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.03-06.29.14:584][506]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.03-06.29.14:584][506]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.03-06.29.14:584][506]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.03-06.29.14:585][506]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.03-06.29.14:585][506]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.03-06.29.14:585][506]LogAudioMixer: Display: Using Audio Device Unknown
+[2020.09.03-06.29.14:587][506]LogInit: FAudioDevice initialized.
+[2020.09.03-06.29.14:596][506]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.09.03-06.29.14:600][506]LogWorld: Bringing World /Game/Maps/地圖/UEDPIE_0_遊戲場景.遊戲場景 up for play (max tick rate 0) at 2020.09.03-14.29.14
+[2020.09.03-06.29.14:601][506]LogWorld: Bringing up level for play took: 0.004085
+[2020.09.03-06.29.14:601][506]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.09.03-06.29.14:603][506]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 20 classes and 0 folders.
+[2020.09.03-06.29.14:605][506]PIE: Play in editor start time for /Game/Maps/地圖/UEDPIE_0_遊戲場景 0.586
+[2020.09.03-06.29.31:793][320]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.29.31:804][320]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.09.03-06.29.31:825][320]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.09.03-06.29.31:825][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.29.31:825][320]LogWorld: BeginTearingDown for /Game/Maps/地圖/UEDPIE_0_遊戲場景
+[2020.09.03-06.29.31:825][320]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.29.31:825][320]LogWorld: UWorld::CleanupWorld for 遊戲場景, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-06.29.31:826][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.29.31:834][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.03-06.29.31:838][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.29.31:872][320]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.29.31:890][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.29.31:904][320]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.09.03-06.29.31:920][321]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.09.03-06.30.11:088][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Crypt_Floor5)
+[2020.09.03-06.30.11:960][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Crypt_Floor4)
+[2020.09.03-06.30.23:575][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.03-06.30.23:612][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.09.03-06.30.23:655][ 23]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景964C401B47AE81FAD46F319114BCFB41.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.03-06.30.23:687][ 23]AssetCheck: New page: Asset Save: 遊戲場景
+[2020.09.03-06.30.23:687][ 23]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.03-06.30.24:340][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.03-06.30.24:372][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.09.03-06.30.24:414][ 99]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景F311E2294C74E35D30D281A043C409AC.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.03-06.30.24:446][ 99]AssetCheck: New page: Asset Save: 遊戲場景
+[2020.09.03-06.30.24:446][ 99]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.03-06.30.25:765][255]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.03-06.30.25:782][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.03-06.30.25:782][255]PIE: New page: PIE session: 遊戲場景 (2020年9月3日 下午10:30:25)
+[2020.09.03-06.30.25:782][255]LogPlayLevel: Creating play world package: /Game/Maps/地圖/UEDPIE_0_遊戲場景
+[2020.09.03-06.30.25:788][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005954s)
+[2020.09.03-06.30.25:789][255]LogAIModule: Creating AISystem for world 遊戲場景
+[2020.09.03-06.30.25:789][255]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2020.09.03-06.30.25:789][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/地圖/遊戲場景.遊戲場景 to /Game/Maps/地圖/UEDPIE_0_遊戲場景.遊戲場景 (0.006723s)
+[2020.09.03-06.30.25:819][255]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.09.03-06.30.25:820][255]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.03-06.30.25:820][255]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.03-06.30.25:820][255]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.03-06.30.25:820][255]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.03-06.30.25:820][255]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.03-06.30.25:820][255]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.03-06.30.25:820][255]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.03-06.30.25:820][255]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.03-06.30.25:821][255]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.03-06.30.25:821][255]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.03-06.30.25:821][255]LogAudioMixer: Display: Using Audio Device Unknown
+[2020.09.03-06.30.25:823][255]LogInit: FAudioDevice initialized.
+[2020.09.03-06.30.25:832][255]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.09.03-06.30.25:837][255]LogWorld: Bringing World /Game/Maps/地圖/UEDPIE_0_遊戲場景.遊戲場景 up for play (max tick rate 0) at 2020.09.03-14.30.25
+[2020.09.03-06.30.25:838][255]LogWorld: Bringing up level for play took: 0.005596
+[2020.09.03-06.30.25:838][255]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.09.03-06.30.25:841][255]PIE: Play in editor start time for /Game/Maps/地圖/UEDPIE_0_遊戲場景 -0.178
+[2020.09.03-06.30.40:345][823]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.30.40:351][823]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.09.03-06.30.40:372][823]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.09.03-06.30.40:372][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.30.40:372][823]LogWorld: BeginTearingDown for /Game/Maps/地圖/UEDPIE_0_遊戲場景
+[2020.09.03-06.30.40:372][823]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.30.40:372][823]LogWorld: UWorld::CleanupWorld for 遊戲場景, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-06.30.40:373][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.30.40:381][823]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.03-06.30.40:385][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.30.40:417][823]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.30.40:436][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.30.40:440][823]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.09.03-06.30.40:455][824]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.09.03-06.30.43:657][204]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.03-06.30.43:672][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.03-06.30.43:672][204]PIE: New page: PIE session: 遊戲場景 (2020年9月3日 下午10:30:43)
+[2020.09.03-06.30.43:672][204]LogPlayLevel: Creating play world package: /Game/Maps/地圖/UEDPIE_0_遊戲場景
+[2020.09.03-06.30.43:678][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005944s)
+[2020.09.03-06.30.43:679][204]LogAIModule: Creating AISystem for world 遊戲場景
+[2020.09.03-06.30.43:679][204]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2020.09.03-06.30.43:679][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/地圖/遊戲場景.遊戲場景 to /Game/Maps/地圖/UEDPIE_0_遊戲場景.遊戲場景 (0.006708s)
+[2020.09.03-06.30.43:710][204]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.09.03-06.30.43:711][204]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.03-06.30.43:711][204]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.03-06.30.43:711][204]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.03-06.30.43:711][204]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.03-06.30.43:711][204]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.03-06.30.43:711][204]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.03-06.30.43:711][204]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.03-06.30.43:711][204]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.03-06.30.43:711][204]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.03-06.30.43:711][204]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.03-06.30.43:712][204]LogAudioMixer: Display: Using Audio Device Unknown
+[2020.09.03-06.30.43:713][204]LogInit: FAudioDevice initialized.
+[2020.09.03-06.30.43:720][204]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.09.03-06.30.43:726][204]LogWorld: Bringing World /Game/Maps/地圖/UEDPIE_0_遊戲場景.遊戲場景 up for play (max tick rate 0) at 2020.09.03-14.30.43
+[2020.09.03-06.30.43:727][204]LogWorld: Bringing up level for play took: 0.005475
+[2020.09.03-06.30.43:727][204]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.09.03-06.30.43:730][204]PIE: Play in editor start time for /Game/Maps/地圖/UEDPIE_0_遊戲場景 -0.289
+[2020.09.03-06.31.18:659][383]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.31.18:679][383]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.09.03-06.31.18:700][383]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.09.03-06.31.18:700][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.31.18:700][383]LogWorld: BeginTearingDown for /Game/Maps/地圖/UEDPIE_0_遊戲場景
+[2020.09.03-06.31.18:700][383]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.31.18:700][383]LogWorld: UWorld::CleanupWorld for 遊戲場景, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-06.31.18:701][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.31.18:709][383]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.03-06.31.18:714][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.31.18:744][383]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.31.18:764][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.31.18:768][383]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.09.03-06.31.18:784][384]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.09.03-06.32.22:830][888]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/bp/BP_鑰匙.BP_鑰匙
+[2020.09.03-06.32.25:580][138]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/bp/BP_殭屍.BP_殭屍
+[2020.09.03-06.32.36:465][381]BlueprintLog: New page: Compile BP_殭屍
+[2020.09.03-06.32.36:727][381]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.09.03-06.32.37:188][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/BP_殭屍" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset" SILENT=true
+[2020.09.03-06.32.37:235][419]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/BP_殭屍845F49994A0582266D84CEBA5CF98260.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset'
+[2020.09.03-06.32.37:245][419]AssetCheck: New page: Asset Save: BP_殭屍
+[2020.09.03-06.32.37:245][419]LogContentValidation: Display: Validating Blueprint /Game/bp/BP_殭屍.BP_殭屍
+[2020.09.03-06.32.38:077][511]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.03-06.32.38:095][511]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.03-06.32.38:095][511]PIE: New page: PIE session: 遊戲場景 (2020年9月3日 下午10:32:38)
+[2020.09.03-06.32.38:095][511]LogPlayLevel: Creating play world package: /Game/Maps/地圖/UEDPIE_0_遊戲場景
+[2020.09.03-06.32.38:101][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006270s)
+[2020.09.03-06.32.38:102][511]LogAIModule: Creating AISystem for world 遊戲場景
+[2020.09.03-06.32.38:102][511]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2020.09.03-06.32.38:102][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/地圖/遊戲場景.遊戲場景 to /Game/Maps/地圖/UEDPIE_0_遊戲場景.遊戲場景 (0.007039s)
+[2020.09.03-06.32.38:138][511]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2020.09.03-06.32.38:139][511]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.03-06.32.38:139][511]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.03-06.32.38:139][511]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.03-06.32.38:139][511]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.03-06.32.38:139][511]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.03-06.32.38:139][511]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.03-06.32.38:139][511]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.03-06.32.38:139][511]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.03-06.32.38:140][511]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.03-06.32.38:140][511]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.03-06.32.38:140][511]LogAudioMixer: Display: Using Audio Device Unknown
+[2020.09.03-06.32.38:142][511]LogInit: FAudioDevice initialized.
+[2020.09.03-06.32.38:199][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.32.38:200][511]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.09.03-06.32.38:206][511]LogWorld: Bringing World /Game/Maps/地圖/UEDPIE_0_遊戲場景.遊戲場景 up for play (max tick rate 0) at 2020.09.03-14.32.38
+[2020.09.03-06.32.38:206][511]LogWorld: Bringing up level for play took: 0.006135
+[2020.09.03-06.32.38:207][511]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.09.03-06.32.38:211][511]PIE: Play in editor start time for /Game/Maps/地圖/UEDPIE_0_遊戲場景 0.193
+[2020.09.03-06.32.38:261][513]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.09.03-06.32.52:600][657]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.32.52:606][657]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.09.03-06.32.52:627][657]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.09.03-06.32.52:627][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.32.52:627][657]LogWorld: BeginTearingDown for /Game/Maps/地圖/UEDPIE_0_遊戲場景
+[2020.09.03-06.32.52:639][657]LogSlate: Window 'MyProject2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.09.03-06.32.52:644][657]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.32.52:644][657]LogWorld: UWorld::CleanupWorld for 遊戲場景, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-06.32.52:645][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.32.52:662][657]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.03-06.32.52:667][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.32.52:702][657]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.32.52:716][657]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.09.03-06.32.52:775][658]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.09.03-06.33.02:948][868]BlueprintLog: New page: Compile BP_殭屍
+[2020.09.03-06.33.03:201][868]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.09.03-06.33.03:772][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/BP_殭屍" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset" SILENT=true
+[2020.09.03-06.33.03:816][920]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/BP_殭屍FABDA4EC42409C6FE1022CA4F77B0815.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset'
+[2020.09.03-06.33.03:827][920]AssetCheck: New page: Asset Save: BP_殭屍
+[2020.09.03-06.33.03:827][920]LogContentValidation: Display: Validating Blueprint /Game/bp/BP_殭屍.BP_殭屍
+[2020.09.03-06.33.04:994][ 52]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.03-06.33.05:010][ 52]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.03-06.33.05:011][ 52]PIE: New page: PIE session: 遊戲場景 (2020年9月3日 下午10:33:05)
+[2020.09.03-06.33.05:011][ 52]LogPlayLevel: Creating play world package: /Game/Maps/地圖/UEDPIE_0_遊戲場景
+[2020.09.03-06.33.05:017][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005973s)
+[2020.09.03-06.33.05:017][ 52]LogAIModule: Creating AISystem for world 遊戲場景
+[2020.09.03-06.33.05:017][ 52]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2020.09.03-06.33.05:017][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/地圖/遊戲場景.遊戲場景 to /Game/Maps/地圖/UEDPIE_0_遊戲場景.遊戲場景 (0.006722s)
+[2020.09.03-06.33.05:052][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.09.03-06.33.05:052][ 52]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.03-06.33.05:052][ 52]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.03-06.33.05:052][ 52]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.03-06.33.05:052][ 52]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.03-06.33.05:052][ 52]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.03-06.33.05:052][ 52]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.03-06.33.05:052][ 52]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.03-06.33.05:052][ 52]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.03-06.33.05:052][ 52]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.03-06.33.05:052][ 52]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.03-06.33.05:053][ 52]LogAudioMixer: Display: Using Audio Device Unknown
+[2020.09.03-06.33.05:055][ 52]LogInit: FAudioDevice initialized.
+[2020.09.03-06.33.05:099][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.33.05:099][ 52]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.09.03-06.33.05:105][ 52]LogWorld: Bringing World /Game/Maps/地圖/UEDPIE_0_遊戲場景.遊戲場景 up for play (max tick rate 0) at 2020.09.03-14.33.05
+[2020.09.03-06.33.05:105][ 52]LogWorld: Bringing up level for play took: 0.006061
+[2020.09.03-06.33.05:106][ 52]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.09.03-06.33.05:110][ 52]PIE: Play in editor start time for /Game/Maps/地圖/UEDPIE_0_遊戲場景 1.092
+[2020.09.03-06.33.10:240][455]LogCharacterMovement: BP_殭屍_2 is stuck and failed to move! Velocity: X=47.44 Y=-117.10 Z=0.00 Location: X=-768.89 Y=-448.04 Z=90.15 Normal: X=-0.17 Y=0.99 Z=0.00 PenetrationDepth:15.435 Actor:bp_1_C_0 Component:武器 BoneName:None (0 other events since notify)
+[2020.09.03-06.33.21:796][398]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.33.21:803][398]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.09.03-06.33.21:823][398]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.09.03-06.33.21:823][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.33.21:823][398]LogWorld: BeginTearingDown for /Game/Maps/地圖/UEDPIE_0_遊戲場景
+[2020.09.03-06.33.21:835][398]LogSlate: Window 'MyProject2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.09.03-06.33.21:838][398]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.33.21:838][398]LogWorld: UWorld::CleanupWorld for 遊戲場景, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-06.33.21:840][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.33.21:857][398]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.03-06.33.21:861][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.33.21:896][398]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.33.21:913][398]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.09.03-06.33.21:971][399]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.09.03-06.33.27:074][990]BlueprintLog: New page: Compile BP_殭屍
+[2020.09.03-06.33.27:325][990]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2020.09.03-06.33.29:565][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.03-06.33.29:604][233]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.09.03-06.33.29:645][233]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景7E4AD0CC4A2DBFC30294728768EF7E5B.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.03-06.33.29:677][233]AssetCheck: New page: Asset Save: 遊戲場景
+[2020.09.03-06.33.29:677][233]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.03-06.33.30:561][336]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.03-06.33.30:578][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.03-06.33.30:578][336]PIE: New page: PIE session: 遊戲場景 (2020年9月3日 下午10:33:30)
+[2020.09.03-06.33.30:578][336]LogPlayLevel: Creating play world package: /Game/Maps/地圖/UEDPIE_0_遊戲場景
+[2020.09.03-06.33.30:584][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006095s)
+[2020.09.03-06.33.30:585][336]LogAIModule: Creating AISystem for world 遊戲場景
+[2020.09.03-06.33.30:585][336]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2020.09.03-06.33.30:585][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/地圖/遊戲場景.遊戲場景 to /Game/Maps/地圖/UEDPIE_0_遊戲場景.遊戲場景 (0.006862s)
+[2020.09.03-06.33.30:619][336]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.09.03-06.33.30:620][336]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.03-06.33.30:620][336]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.03-06.33.30:620][336]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.03-06.33.30:620][336]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.03-06.33.30:620][336]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.03-06.33.30:620][336]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.03-06.33.30:620][336]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.03-06.33.30:620][336]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.03-06.33.30:620][336]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.03-06.33.30:620][336]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.03-06.33.30:621][336]LogAudioMixer: Display: Using Audio Device Unknown
+[2020.09.03-06.33.30:622][336]LogInit: FAudioDevice initialized.
+[2020.09.03-06.33.30:631][336]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.09.03-06.33.30:637][336]LogWorld: Bringing World /Game/Maps/地圖/UEDPIE_0_遊戲場景.遊戲場景 up for play (max tick rate 0) at 2020.09.03-14.33.30
+[2020.09.03-06.33.30:638][336]LogWorld: Bringing up level for play took: 0.005402
+[2020.09.03-06.33.30:638][336]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.09.03-06.33.30:641][336]PIE: Play in editor start time for /Game/Maps/地圖/UEDPIE_0_遊戲場景 0.622
+[2020.09.03-06.33.51:057][302]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.09.03-06.33.51:078][302]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.09.03-06.33.51:082][302]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.09.03-06.33.51:102][302]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.09.03-06.33.51:102][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.33.51:102][302]LogWorld: BeginTearingDown for /Game/Maps/地圖/UEDPIE_0_遊戲場景
+[2020.09.03-06.33.51:102][302]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.33.51:102][302]LogWorld: UWorld::CleanupWorld for 遊戲場景, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-06.33.51:103][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.33.51:122][302]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.03-06.33.51:127][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.33.51:163][302]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.33.51:167][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.33.51:171][302]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.09.03-06.33.51:187][303]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.09.03-06.34.02:053][568]BlueprintLog: New page: Compile BP_殭屍
+[2020.09.03-06.34.02:307][568]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.09.03-06.34.02:739][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bp/BP_殭屍" FILE="D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset" SILENT=true
+[2020.09.03-06.34.02:785][605]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/BP_殭屍0B1C5E0643284F7E966378866577EB6F.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/bp/BP_殭屍.uasset'
+[2020.09.03-06.34.02:795][605]AssetCheck: New page: Asset Save: BP_殭屍
+[2020.09.03-06.34.02:795][605]LogContentValidation: Display: Validating Blueprint /Game/bp/BP_殭屍.BP_殭屍
+[2020.09.03-06.34.04:665][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.03-06.34.04:705][821]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.09.03-06.34.04:748][821]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景2DD64A3445ADAB31DB1A118A643CA855.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.03-06.34.04:781][821]AssetCheck: New page: Asset Save: 遊戲場景
+[2020.09.03-06.34.04:781][821]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.03-06.34.05:763][936]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.03-06.34.05:779][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.03-06.34.05:779][936]PIE: New page: PIE session: 遊戲場景 (2020年9月3日 下午10:34:05)
+[2020.09.03-06.34.05:779][936]LogPlayLevel: Creating play world package: /Game/Maps/地圖/UEDPIE_0_遊戲場景
+[2020.09.03-06.34.05:785][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005968s)
+[2020.09.03-06.34.05:786][936]LogAIModule: Creating AISystem for world 遊戲場景
+[2020.09.03-06.34.05:786][936]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2020.09.03-06.34.05:786][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/地圖/遊戲場景.遊戲場景 to /Game/Maps/地圖/UEDPIE_0_遊戲場景.遊戲場景 (0.006721s)
+[2020.09.03-06.34.05:822][936]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.09.03-06.34.05:822][936]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.03-06.34.05:822][936]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.03-06.34.05:822][936]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.03-06.34.05:822][936]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.03-06.34.05:822][936]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.03-06.34.05:822][936]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.03-06.34.05:822][936]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.03-06.34.05:822][936]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.03-06.34.05:822][936]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.03-06.34.05:822][936]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.03-06.34.05:823][936]LogAudioMixer: Display: Using Audio Device Unknown
+[2020.09.03-06.34.05:825][936]LogInit: FAudioDevice initialized.
+[2020.09.03-06.34.05:832][936]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.09.03-06.34.05:838][936]LogWorld: Bringing World /Game/Maps/地圖/UEDPIE_0_遊戲場景.遊戲場景 up for play (max tick rate 0) at 2020.09.03-14.34.05
+[2020.09.03-06.34.05:839][936]LogWorld: Bringing up level for play took: 0.005522
+[2020.09.03-06.34.05:839][936]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.09.03-06.34.05:842][936]PIE: Play in editor start time for /Game/Maps/地圖/UEDPIE_0_遊戲場景 -0.177
+[2020.09.03-06.35.53:767][418]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.35.53:773][418]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.09.03-06.35.53:793][418]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.09.03-06.35.53:793][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.35.53:793][418]LogWorld: BeginTearingDown for /Game/Maps/地圖/UEDPIE_0_遊戲場景
+[2020.09.03-06.35.53:793][418]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.35.53:793][418]LogWorld: UWorld::CleanupWorld for 遊戲場景, bSessionEnded=true, bCleanupResources=true
+[2020.09.03-06.35.53:794][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.35.53:810][418]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.03-06.35.53:816][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.03-06.35.53:851][418]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.03-06.35.53:859][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.03-06.35.53:862][418]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.09.03-06.35.53:878][419]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.09.03-06.35.55:901][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.03-06.35.55:938][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.09.03-06.35.55:980][655]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景5228ACEF49A32906EADBB99F46232FD9.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.03-06.35.56:011][655]AssetCheck: New page: Asset Save: 遊戲場景
+[2020.09.03-06.35.56:011][655]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
+[2020.09.03-06.37.52:555][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/地圖/遊戲場景" FILE="D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.03-06.37.52:592][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.09.03-06.37.52:636][633]LogSavePackage: Moving 'D:/new_lizhen/new_lizhen/1/Saved/遊戲場景A38508FA4F35041605B998B3F5B06254.tmp' to 'D:/new_lizhen/new_lizhen/1/Content/Maps/地圖/遊戲場景.umap'
+[2020.09.03-06.37.52:668][633]AssetCheck: New page: Asset Save: 遊戲場景
+[2020.09.03-06.37.52:668][633]LogContentValidation: Display: Validating World /Game/Maps/地圖/遊戲場景.遊戲場景
